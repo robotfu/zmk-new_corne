@@ -84,7 +84,7 @@
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
         nav {
@@ -140,7 +140,7 @@
             >;
 
             label = "num";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         sym {
@@ -168,7 +168,7 @@
             >;
 
             label = "fun";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
         game {
