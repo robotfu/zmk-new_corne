@@ -75,6 +75,41 @@
             key-positions = <20 29>;
         };
 
+        lalt3 {
+            bindings = <&kp LA(NUMBER_3)>;
+            key-positions = <20 30>;
+        };
+
+        lalt4 {
+            bindings = <&kp LA(NUMBER_4)>;
+            key-positions = <20 31>;
+        };
+
+        lalt5 {
+            bindings = <&kp LA(NUMBER_5)>;
+            key-positions = <20 32>;
+        };
+
+        lalt6 {
+            bindings = <&kp LA(NUMBER_6)>;
+            key-positions = <20 33>;
+        };
+
+        lalt7 {
+            bindings = <&kp LA(NUMBER_7)>;
+            key-positions = <20 34>;
+        };
+
+        lalt8 {
+            bindings = <&kp LA(NUMBER_8)>;
+            key-positions = <20 35>;
+        };
+
+        lalt9 {
+            bindings = <&kp LA(NUMBER_9)>;
+            key-positions = <20 36>;
+        };
+
         lsa1 {
             bindings = <&kp LA(LS(NUMBER_1))>;
             key-positions = <28 25>;
@@ -84,7 +119,43 @@
             bindings = <&kp LA(LS(NUMBER_2))>;
             key-positions = <29 25>;
         };
+
+        lsa3 {
+            bindings = <&kp LA(LS(NUMBER_3))>;
+            key-positions = <30 25>;
+        };
+
+        lsa4 {
+            bindings = <&kp LA(LS(NUMBER_4))>;
+            key-positions = <31 25>;
+        };
+
+        lsa5 {
+            bindings = <&kp LA(LS(NUMBER_5))>;
+            key-positions = <32 25>;
+        };
+
+        lsa6 {
+            bindings = <&kp LA(LS(NUMBER_6))>;
+            key-positions = <33 25>;
+        };
+
+        lsa7 {
+            bindings = <&kp LA(LS(NUMBER_7))>;
+            key-positions = <34 25>;
+        };
+
+        lsa8 {
+            bindings = <&kp LA(LS(NUMBER_8))>;
+            key-positions = <35 25>;
+        };
+
+        lsa9 {
+            bindings = <&kp LA(LS(NUMBER_9))>;
+            key-positions = <36 25>;
+        };
     };
+
 
     keymap {
         compatible = "zmk,keymap";
