@@ -62,6 +62,30 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        lalt1 {
+            bindings = <&kp LA(NUMBER_1)>;
+            key-positions = <20 28>;
+        };
+
+        lalt2 {
+            bindings = <&kp LA(NUMBER_2)>;
+            key-positions = <20 29>;
+        };
+
+        lsa1 {
+            bindings = <&kp LA(LS(NUMBER_1))>;
+            key-positions = <20 29>;
+        };
+
+        lsa2 {
+            bindings = <&kp LA(LS(NUMBER_2))>;
+            key-positions = <20 29>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
