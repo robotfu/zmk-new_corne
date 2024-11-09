@@ -68,9 +68,9 @@
     tap-ms = <0>;
     #binding-cells = <0>;
     bindings
-        = <&macro_press &mo nav &kp LALT>
+        = <&macro_press &mo 4 &kp LALT>
         , <&macro_pause_for_release>
-        , <&macro_release &mo nav &kp LALT>
+        , <&macro_release &mo 4 &kp LALT>
         ;
 };
 
@@ -113,7 +113,7 @@ zl: zl {
         compatible = "zmk,keymap";
 
         base {
-            display-name = "QWERTY";
+            display-name = "base";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |                ↑    |  Y  |  U   |  I  |  O  |  P  | BKSP |      &kp UP_ARROW 
@@ -126,11 +126,11 @@ zl: zl {
 &kp GRAVE  &kp Q       &kp W       &kp E        &kp R        &kp T        &kp PG_UP  &kp Y        &kp U            &kp I        &kp O       &kp P              &kp EQUAL
 &kp COLON  &mt LWIN A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp PG_DN  &zl 0 H        &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RIGHT_WIN SQT  &kp MINUS
 &kp PIPE   &kp Z       &kp X       &kp C        &kp V        &kp B        &kp HOME   &kp N        &kp M            &kp COMMA    &kp DOT     &kp FSLH           &kp BACKSLASH
-                       &kp C_MUTE  &lt 7 ESC    &lt 1 SPACE  &lt 2 TAB    &kp END    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 5 DEL
-                                                                          &tog 6
+                       &kp C_MUTE  &lt feat ESC    &lt nav SPACE  &lt media TAB    &kp END    &lt sym ENTER  &lt num BACKSPACE  &lt fun DEL
+                                                                          &tog kt
             >;
 
-            label = "QWERTY";
+            label = "base";
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
@@ -228,7 +228,7 @@ zl: zl {
                                                              &to 0
             >;
 
-            label = "game";
+            label = "kt";
             sensor-bindings = <&inc_dec_kp LEFT RIGHT_ARROW>;
         };
 
