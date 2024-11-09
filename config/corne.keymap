@@ -77,7 +77,7 @@
 
         lsa1 {
             bindings = <&kp LA(LS(NUMBER_1))>;
-            key-positions = <20 29>;
+            key-positions = <20 28>;
         };
 
         lsa2 {
