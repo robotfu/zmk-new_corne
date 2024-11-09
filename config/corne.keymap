@@ -82,32 +82,32 @@
 
         lalt4 {
             bindings = <&kp LA(NUMBER_4)>;
-            key-positions = <20 31>;
+            key-positions = <20 15>;
         };
 
         lalt5 {
             bindings = <&kp LA(NUMBER_5)>;
-            key-positions = <20 32>;
+            key-positions = <20 16>;
         };
 
         lalt6 {
             bindings = <&kp LA(NUMBER_6)>;
-            key-positions = <20 33>;
+            key-positions = <20 17>;
         };
 
         lalt7 {
             bindings = <&kp LA(NUMBER_7)>;
-            key-positions = <20 34>;
+            key-positions = <20 2>;
         };
 
         lalt8 {
             bindings = <&kp LA(NUMBER_8)>;
-            key-positions = <20 35>;
+            key-positions = <20 3>;
         };
 
         lalt9 {
             bindings = <&kp LA(NUMBER_9)>;
-            key-positions = <20 36>;
+            key-positions = <20 4>;
         };
 
         lsa1 {
@@ -127,35 +127,34 @@
 
         lsa4 {
             bindings = <&kp LA(LS(NUMBER_4))>;
-            key-positions = <31 25>;
+            key-positions = <25 15>;
         };
 
         lsa5 {
             bindings = <&kp LA(LS(NUMBER_5))>;
-            key-positions = <32 25>;
+            key-positions = <25 16>;
         };
 
         lsa6 {
             bindings = <&kp LA(LS(NUMBER_6))>;
-            key-positions = <33 25>;
+            key-positions = <25 17>;
         };
 
         lsa7 {
             bindings = <&kp LA(LS(NUMBER_7))>;
-            key-positions = <34 25>;
+            key-positions = <25 2>;
         };
 
         lsa8 {
             bindings = <&kp LA(LS(NUMBER_8))>;
-            key-positions = <35 25>;
+            key-positions = <25 3>;
         };
 
         lsa9 {
             bindings = <&kp LA(LS(NUMBER_9))>;
-            key-positions = <36 25>;
+            key-positions = <25 4>;
         };
     };
-
 
     keymap {
         compatible = "zmk,keymap";
