@@ -17,6 +17,7 @@
     acceleration-exponent = <1>;      // 0
     time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
+
 };
 
 &mmv {
@@ -301,8 +302,8 @@
             display-name = "home";
             bindings = <
 &kp GRAVE    &kp Q        &kp W        &kp E            &kp R            &kp T                             &kp UP_ARROW             &kp Y        &kp U            &kp I             &kp O          &kp P           &kp EQUAL
-&colon_semi  &kp A        &lt 4 S      &lt 3 D          &lt 2 F          &kp G                   &kp LEFT  &tog 1        &kp RIGHT  &kp H        &lt 5 J          &lt 6 K           &lt 7 L        &kp SQT         &kp MINUS
-&leader_1    &hml LWIN Z  &hml LALT X  &hml LCTRL C     &hml LSHFT V     &kp B          &to 0              &kp DOWN                 &kp N        &hmr LSHFT M     &hmr LCTRL COMMA  &hmr LALT DOT  &hmr LGUI FSLH  &kp BACKSLASH
+&colon_semi  &hml LWIN A  &hml LALT S  &hml LCTRL D     &kp F          &kp G                   &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K      &hmr LALT L     &kp SQT         &kp MINUS
+&leader_1    &kp Z        &lt 4 X        &lt 3 C            &lt 2 V     &kp B          &to 0              &kp DOWN                 &kp N         &lt 5 M          &lt 6 COMMA         &lt 7 DOT  &hmr LGUI FSLH  &kp BACKSLASH
                                        &mt LALT ESCAPE  &mt LSHFT SPACE  &mt LCTRL TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
 
