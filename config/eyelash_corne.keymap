@@ -129,6 +129,15 @@
                 bindings = <&kt LSHFT>;
             };
         };
+
+        colon_semi: colon_semi {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COLON_SEMI";
+            bindings = <&kp COLON>, <&kp SEMICOLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -279,9 +288,9 @@
             key-positions = <17 23>;
         };
 
-        colon {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <23 37>;
+        lock_lctl {
+            bindings = <&kt LCTRL>;
+            key-positions = <44 31>;
         };
     };
 
@@ -291,10 +300,10 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE                &kp Q        &kp W        &kp E         &kp R         &kp T                         &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
-&FUN_COLON_SEMI 7 COLON  &kp A        &kp S        &kp D         &kp F         &kp G               &kp LEFT  &tog 1        &kp RIGHT  &kp H        &kp J            &kp K         &kp L        &kp SQT  &kp MINUS
-&leader_1                &hml LWIN Z  &hml LALT X  &hml LCTRL C  &hml LSHFT V  &kp B      &to 0              &kp DOWN                 &kp N        &hmr LSHFT M     &hmr LCTRL COMMA &hmr LALT DOT  &hmr LGUI FSLH       &kp BACKSLASH
-                                                   &lt 4 ESCAPE  &lt 2 SPACE   &lt 2 TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
+&kp GRAVE    &kp Q        &kp W        &kp E            &kp R            &kp T                             &kp UP_ARROW             &kp Y        &kp U            &kp I             &kp O          &kp P           &kp EQUAL
+&colon_semi  &kp A        &lt 4 S      &lt 3 D          &lt 2 F          &kp G                   &kp LEFT  &tog 1        &kp RIGHT  &kp H        &lt 5 J          &lt 6 K           &lt 7 L        &kp SQT         &kp MINUS
+&leader_1    &hml LWIN Z  &hml LALT X  &hml LCTRL C     &hml LSHFT V     &kp B          &to 0              &kp DOWN                 &kp N        &hmr LSHFT M     &hmr LCTRL COMMA  &hmr LALT DOT  &hmr LGUI FSLH  &kp BACKSLASH
+                                       &mt LALT ESCAPE  &mt LSHFT SPACE  &mt LCTRL TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -394,4 +403,3 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 };
-
