@@ -25,9 +25,6 @@ manifest:
     - name: nice-view-gem
       remote: m165437
       revision: main
-    - name: zmk-config
-      remote: robotfu
-      revision: main
     # Apply patch to fix child nodes issue
     - name: zephyr
       remote: urob
