@@ -71,15 +71,6 @@
             hold-trigger-key-positions = <47 46 45 44 43 42 33 0 1 2 3 4 5 13 14 15 16 17 18 28 29 30 31 32 33 42 43 44>;
         };
 
-        FUN_COLON_SEMI: FUN_COLON_SEMI {
-            compatible = "zmk,behavior-hold-tap";
-            label = "FUN_COLON_SEMI";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
         leader_1: leader_1 {
             compatible = "zmk,behavior-leader-key";
             #binding-cells = <0>;
@@ -137,6 +128,16 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        hold_leader_1: hold_leader_1 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_LEADER_1";
+            bindings = <&leader_1>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
     };
 
@@ -300,10 +301,10 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE    &kp Q        &kp W        &kp E            &kp R            &kp T                             &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
-&colon_semi  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F     &kp G                   &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1    &kp Z        &lt 4 X      &lt 3 C          &lt 2 V          &kp B          &to 0              &kp DOWN                 &kp N        &lt 5 M          &lt 6 COMMA   &lt 7 DOT    &kp SLASH      &kp BACKSLASH
-                                       &mt LALT ESCAPE  &mt LSHFT SPACE  &mt LCTRL TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
+&kp GRAVE    &kp Q        &kp W        &kp E            &kp R                   &kp T                             &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
+&colon_semi  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F            &kp G                   &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
+&leader_1    &kp Z        &lt 4 X      &lt 3 C          &lt 2 V                 &kp B          &to 0              &kp DOWN                 &kp N        &lt 5 M          &lt 6 COMMA   &lt 7 DOT    &kp SLASH      &kp BACKSLASH
+                                       &mt LALT ESCAPE  &hold_leader_1 0 SPACE  &mt LCTRL TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
