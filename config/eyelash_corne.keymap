@@ -325,7 +325,7 @@
         nav {
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans                   &trans          &trans      &kp HOME       &kp UP_ARROW  &kp END        &trans  &trans
-&trans  &sk LGUI  &sk LALT  &sk LCTRL  &sk LSHFT  &trans           &trans  &trans  &trans  &trans      &kp LEFT       &kp DOWN      &kp UP_ARROW   &trans  &trans
+&trans  &sk LGUI  &sk LALT  &sk LCTRL  &sk LSHFT  &trans           &trans  &trans  &trans  &trans      &kp LEFT       &kp DOWN      &kp RIGHT      &trans  &trans
 &trans  &trans    &trans    &trans     &trans     &trans  &to 0            &trans          &kp INSERT  &kp PAGE_UP    &trans        &kp PAGE_DOWN  &trans  &trans
                             &trans     &trans     &trans                                   &kp ENTER   &kp BACKSPACE  &kp DELETE
             >;
