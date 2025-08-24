@@ -17,6 +17,7 @@
     acceleration-exponent = <1>;      // 0
     time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
+
 };
 
 &mmv {
@@ -80,26 +81,6 @@
                 bindings = <&kp LC(PRINTSCREEN)>;
             };
 
-            prs {
-                sequence = <F E>;
-                bindings = <&kp PRINTSCREEN>;
-            };
-
-            nav {
-                sequence = <SPACE>;
-                bindings = <&to 9>;
-            };
-
-            med {
-                sequence = <TAB>;
-                bindings = <&to 4>;
-            };
-
-            cap {
-                sequence = <COLON>;
-                bindings = <&caps_word>;
-            };
-
             win {
                 sequence = <A>;
                 bindings = <&kt LWIN>;
@@ -119,6 +100,36 @@
                 sequence = <F>;
                 bindings = <&kt LSHFT>;
             };
+        };
+
+        e_leader: e_leader {
+            compatible = "zmk,behavior-leader-key";
+            #binding-cells = <0>;
+
+            lpars {
+                sequence = <W>;
+                bindings = <&kp LEFT_PARENTHESIS>;
+            };
+
+rpars {
+                sequence = <R>;
+                bindings = <&kp RIGHT_PARENTHESIS>;
+};
+        };
+
+        w_leader: w_leader {
+            compatible = "zmk,behavior-leader-key";
+            #binding-cells = <0>;
+
+            lpars {
+                sequence = <Q>;
+                bindings = <&kp LEFT_BRACKET>;
+            };
+
+rpars {
+                sequence = <E>;
+                bindings = <&kp RIGHT_BRACKET>;
+};
         };
 
         colon_semi: colon_semi {
