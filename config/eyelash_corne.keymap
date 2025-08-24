@@ -17,7 +17,6 @@
     acceleration-exponent = <1>;      // 0
     time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
-
 };
 
 &mmv {
@@ -111,10 +110,10 @@
                 bindings = <&kp LEFT_PARENTHESIS>;
             };
 
-rpars {
+            rpars {
                 sequence = <R>;
                 bindings = <&kp RIGHT_PARENTHESIS>;
-};
+            };
         };
 
         w_leader: w_leader {
@@ -126,10 +125,10 @@ rpars {
                 bindings = <&kp LEFT_BRACKET>;
             };
 
-rpars {
+            rpars {
                 sequence = <E>;
                 bindings = <&kp RIGHT_BRACKET>;
-};
+            };
         };
 
         colon_semi: colon_semi {
@@ -145,6 +144,26 @@ rpars {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_LEADER_1";
             bindings = <&leader_1>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        hold_leader_e: hold_leader_e {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_LEADER_E";
+            bindings = <&e_leader>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        hold_leader_w: hold_leader_w {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_LEADER_W";
+            bindings = <&w_leader>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -312,10 +331,10 @@ rpars {
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE    &kp Q        &kp W        &kp E            &kp R         &kp T                                    &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
-&colon_semi  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G                          &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1    &kp Z        &lt 4 X      &lt 3 C          &lt 2 V       &kp B                 &to 0              &kp DOWN                 &kp N        &lt 5 M          &lt 6 COMMA   &lt 7 DOT    &kp SLASH      &kp BACKSLASH
-                                       &mt LALT ESCAPE  &lt 2 SPACE   &hold_leader_1 0 TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
+&kp GRAVE    &kp Q        &hold_leader_w 0 W  &hold_leader_e 0 E  &kp R         &kp T                                    &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
+&colon_semi  &hml LWIN A  &hml LALT S         &hml LCTRL D        &hml LSHFT F  &kp G                          &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
+&leader_1    &kp Z        &lt 4 X             &lt 3 C             &lt 2 V       &kp B                 &to 0              &kp DOWN                 &kp N        &lt 5 M          &lt 6 COMMA   &lt 7 DOT    &kp SLASH      &kp BACKSLASH
+                                              &mt LALT ESCAPE     &lt 2 SPACE   &hold_leader_1 0 TAB                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
