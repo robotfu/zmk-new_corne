@@ -3,8 +3,8 @@ layers:
   home:
   - {t: '`', s: '~'}
   - Q
-  - W
-  - E
+  - {t: W, h: '&w_leader'}
+  - {t: E, h: '&e_leader'}
   - R
   - T
   - $$mdi:arrow-up-bold$$
