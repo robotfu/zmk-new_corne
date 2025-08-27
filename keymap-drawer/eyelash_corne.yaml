@@ -113,10 +113,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -162,10 +162,10 @@ layers:
   - Ctl+Z
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -211,9 +211,9 @@ layers:
   - RGB SPI
   - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -540,10 +540,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [3, 2]
-  k: {t: '[', s: '{'}
-- p: [9, 10]
-  k: {t: ']', s: '}'}
+- p: [3, 15]
+  k: (
+- p: [2, 16]
+  k: )
 - p: [0, 28]
   k: $$mdi:progress-download$$
 - p: [13, 28]
@@ -591,5 +591,31 @@ combos:
   k: {t: '0', s: )}
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$
-- p: [31, 43]
-  k: {t: '$$mdi:apple-keyboard-control$$', h: toggle}
+- p: [31, 32]
+  k: $$mdi:keyboard-tab$$
+- p: [3, 15]
+  k: {t: '[', s: '{'}
+- p: [2, 16]
+  k: {t: ']', s: '}'}
+- p: [2, 14]
+  k: '{'
+- p: [1, 15]
+  k: '}'
+- p: [43, 17, 16]
+  k: {t: '6', s: ^}
+- p: [15, 16, 43]
+  k: {t: '7', s: '&'}
+- p: [43, 14, 15]
+  k: {t: '8', s: '*'}
+- p: [43, 17, 15]
+  k: {t: '9', s: (}
+- p: [17, 14, 43]
+  k: {t: '0', s: )}
+- p: [17, 31]
+  k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+- p: [17, 30]
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+- p: [29, 17]
+  k: {t: LWIN, h: '$$mdi:gesture-tap-hold$$'}
+- p: [17, 43]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
