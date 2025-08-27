@@ -130,12 +130,12 @@
 
         lp {
             bindings = <&kp LPAR>;
-            key-positions = <3 15>;
+            key-positions = <4 16>;
         };
 
         rp {
             bindings = <&kp RPAR>;
-            key-positions = <2 16>;
+            key-positions = <3 17>;
         };
 
         bootloader {
