@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/M165437
     - name: robotfu
       url-base: https://github.com/robotfu
+    - name: caksoylar  # <-- new entry
+      url-base: https://github.com/caksoylar
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -24,6 +26,9 @@ manifest:
       revision: v0.2
     - name: nice-view-gem
       remote: m165437
+      revision: main
+    - name: zmk-rgbled-widget  # <-- new entry
+      remote: caksoylar
       revision: main
     # Apply patch to fix child nodes issue
     - name: zephyr
@@ -52,3 +57,4 @@ manifest:
           - trusted-firmware-m
   self:
     path: config
+
