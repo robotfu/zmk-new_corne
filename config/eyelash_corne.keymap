@@ -17,6 +17,7 @@
     acceleration-exponent = <1>;      // 0
     time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
+
 };
 
 &mmv {
@@ -275,6 +276,8 @@
 &kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
 &leader_1  &kp Z        &kp X        &lt 4 C          &lt 3 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
                                      &mt LALT ESCAPE  &lt 2 SPACE   &none                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
+
+&ind_con
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
