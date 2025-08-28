@@ -268,7 +268,7 @@
 
         /* 系统与固件功能 (System & Firmware Functions) */
 
-        bootloader: bootloader {
+        bootloader_combo: bootloader_combo {
             bindings = <&bootloader>;
             key-positions = <0 28>;
         };
