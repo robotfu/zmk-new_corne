@@ -5,7 +5,7 @@ layers:
   - Q
   - W
   - E
-  - R
+  - {t: R, h: r}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
@@ -33,7 +33,7 @@ layers:
   - Z
   - X
   - {t: C, h: media}
-  - {t: V, h: mouse}
+  - {t: V, h: v}
   - B
   - {t: home, h: toggle}
   - $$mdi:arrow-down-bold$$
@@ -180,7 +180,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: home, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -474,7 +474,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '5', s: '%'}
   - {t: '4', s: $}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -495,7 +495,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '7', s: '&'}
   - {t: '6', s: ^}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
