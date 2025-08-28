@@ -387,10 +387,10 @@
 
         v {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N3  &kp N2  &kp N1  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N5  &kp N4  &none   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none         &kp N5        &kp NUMBER_4  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &none   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans  &trans                                    &trans  &trans  &trans
             >;
         };
 
