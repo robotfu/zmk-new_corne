@@ -273,7 +273,7 @@
             key-positions = <0 28>;
         };
 
-        reset: reset {
+        reset_combo: reset_combo {
             bindings = <&sys_reset>;
             key-positions = <13 28>;
         };
