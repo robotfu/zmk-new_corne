@@ -129,6 +129,7 @@
         compatible = "zmk,combos";
 
         /* 括号与符号 (Parentheses & Symbols) */
+
         lp: lp {
             bindings = <&kp LPAR>;
             key-positions = <4 16>;
@@ -160,6 +161,7 @@
         };
 
         /* 常用编辑键 (Common Editing Keys) */
+
         enter: enter {
             bindings = <&kp ENTER>;
             key-positions = <17 32>;
@@ -186,6 +188,7 @@
         };
 
         /* 修饰键 (Modifier Keys) */
+
         sk_ctl: sk_ctl {
             bindings = <&sk LCTRL>;
             key-positions = <17 31>;
@@ -207,6 +210,7 @@
         };
 
         /* 数字输入 (Number Input) */
+
         n6_l: n6_l {
             bindings = <&kp N6>;
             key-positions = <43 17 16>;
@@ -233,6 +237,7 @@
         };
 
         /* 图层切换 (Layer Switching) */
+
         lock_lnav: lock_lnav {
             bindings = <&tog 8>;
             key-positions = <30 16 32>;
@@ -262,6 +267,7 @@
         };
 
         /* 系统与固件功能 (System & Firmware Functions) */
+
         bootloader: bootloader {
             bindings = <&bootloader>;
             key-positions = <0 28>;
@@ -279,9 +285,9 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE  &kp Q        &kp W        &kp E            &kp R         &kp T                     &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
+&kp GRAVE  &kp Q        &kp W        &kp E            &lt 10 R      &kp T                     &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
 &kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1  &kp Z        &kp X        &lt 4 C          &lt 3 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
+&leader_1  &kp Z        &kp X        &lt 4 C          &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
                                      &mt LALT ESCAPE  &lt 2 SPACE   &none                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
 
