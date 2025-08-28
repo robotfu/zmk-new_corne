@@ -128,48 +128,118 @@
     combos {
         compatible = "zmk,combos";
 
-        lp {
+        /* 括号与符号 (Parentheses & Symbols) */
+        lp: lp {
             bindings = <&kp LPAR>;
             key-positions = <4 16>;
         };
 
-        rp {
+        rp: rp {
             bindings = <&kp RPAR>;
             key-positions = <3 17>;
         };
 
-        bootloader {
-            bindings = <&bootloader>;
-            key-positions = <0 28>;
+        lb: lb {
+            bindings = <&kp LBKT>;
+            key-positions = <3 15>;
         };
 
-        reset {
-            bindings = <&sys_reset>;
-            key-positions = <13 28>;
+        rb: rb {
+            bindings = <&kp RBKT>;
+            key-positions = <2 16>;
         };
 
-        enter {
+        lbb: lbb {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <2 14>;
+        };
+
+        rbb: rbb {
+            bindings = <&kp RBRC>;
+            key-positions = <1 15>;
+        };
+
+        /* 常用编辑键 (Common Editing Keys) */
+        enter: enter {
             bindings = <&kp ENTER>;
             key-positions = <17 32>;
         };
 
-        bksp {
+        bksp: bksp {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 32>;
         };
 
-        del {
+        del: del {
             bindings = <&kp DEL>;
             key-positions = <16 30>;
         };
 
-        lock_lnav {
+        caps: caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <17 23>;
+        };
+
+        tab: tab {
+            bindings = <&kp TAB>;
+            key-positions = <31 32>;
+        };
+
+        /* 修饰键 (Modifier Keys) */
+        sk_ctl: sk_ctl {
+            bindings = <&sk LCTRL>;
+            key-positions = <17 31>;
+        };
+
+        sk_alt: sk_alt {
+            bindings = <&sk LALT>;
+            key-positions = <17 30>;
+        };
+
+        sk_win: sk_win {
+            bindings = <&sk LWIN>;
+            key-positions = <29 17>;
+        };
+
+        sk_sft: sk_sft {
+            bindings = <&sk LSHFT>;
+            key-positions = <17 43>;
+        };
+
+        /* 数字输入 (Number Input) */
+        n6_l: n6_l {
+            bindings = <&kp N6>;
+            key-positions = <43 17 16>;
+        };
+
+        n7_l: n7_l {
+            bindings = <&kp N7>;
+            key-positions = <15 16 43>;
+        };
+
+        n8_l: n8_l {
+            bindings = <&kp N8>;
+            key-positions = <43 14 15>;
+        };
+
+        n9_l: n9_l {
+            bindings = <&kp N9>;
+            key-positions = <43 17 15>;
+        };
+
+        n0_l: n0_l {
+            bindings = <&kp N0>;
+            key-positions = <17 14 43>;
+        };
+
+        /* 图层切换 (Layer Switching) */
+        lock_lnav: lock_lnav {
             bindings = <&tog 8>;
             key-positions = <30 16 32>;
             layers = <2 8 0 1>;
         };
 
-        tog_num {
+        tog_num: tog_num {
             bindings = <&tog 5>;
             key-positions = <15 3 17>;
             timeout-ms = <25>;
@@ -177,7 +247,7 @@
             layers = <5 0 1>;
         };
 
-        tog_sym {
+        tog_sym: tog_sym {
             bindings = <&tog 6>;
             key-positions = <2 16 4>;
             timeout-ms = <25>;
@@ -185,85 +255,21 @@
             layers = <6 0 1>;
         };
 
-        lock_mou {
+        lock_mou: lock_mou {
             bindings = <&tog 3>;
             key-positions = <15 31 17>;
             layers = <0 1 3>;
         };
 
-        caps {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <17 23>;
+        /* 系统与固件功能 (System & Firmware Functions) */
+        bootloader: bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 28>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <31 32>;
-        };
-
-        lb {
-            bindings = <&kp LBKT>;
-            key-positions = <3 15>;
-        };
-
-        rb {
-            bindings = <&kp RBKT>;
-            key-positions = <2 16>;
-        };
-
-        lbb {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 14>;
-        };
-
-        rbb {
-            bindings = <&kp RBRC>;
-            key-positions = <1 15>;
-        };
-
-        n6_l {
-            bindings = <&kp N6>;
-            key-positions = <43 17 16>;
-        };
-
-        n7_l {
-            bindings = <&kp N7>;
-            key-positions = <15 16 43>;
-        };
-
-        n8_l {
-            bindings = <&kp N8>;
-            key-positions = <43 14 15>;
-        };
-
-        n9_l {
-            bindings = <&kp N9>;
-            key-positions = <43 17 15>;
-        };
-
-        n0_l {
-            bindings = <&kp N0>;
-            key-positions = <17 14 43>;
-        };
-
-        sk_ctl {
-            bindings = <&sk LCTRL>;
-            key-positions = <17 31>;
-        };
-
-        sk_alt {
-            bindings = <&sk LEFT_ALT>;
-            key-positions = <17 30>;
-        };
-
-        sk_win {
-            bindings = <&sk LWIN>;
-            key-positions = <29 17>;
-        };
-
-        sk_sft {
-            bindings = <&sk LSHFT>;
-            key-positions = <17 43>;
+        reset: reset {
+            bindings = <&sys_reset>;
+            key-positions = <13 28>;
         };
     };
 
