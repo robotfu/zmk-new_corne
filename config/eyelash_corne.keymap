@@ -287,7 +287,7 @@
             bindings = <
 &kp GRAVE  &kp Q        &kp W        &kp E            &lt 10 R      &kp T                     &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
 &kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1  &kp Z        &kp X        &lt 4 C          &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
+&leader_1  &lt 10 Z     &kp X        &lt 4 C          &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
                                      &mt LALT ESCAPE  &lt 2 SPACE   &none                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
 
@@ -388,18 +388,36 @@
         v {
             bindings = <
 &trans  &kp N9        &kp N8        &kp N7        &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_6  &kp N5        &kp NUMBER_4  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &none   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N3        &kp NUMBER_2  &kp NUMBER_1  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_6  &kp N5        &kp N4        &none   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans        &kp N0  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        z {
+            bindings = <
+&trans  &trans  &kp N3  &kp N4  &kp N5  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N6  &kp N7  &kp N8  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none   &kp N9  &kp N0  &kp N2  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &kp N1  &trans                                    &trans  &trans  &trans
             >;
         };
 
         r {
             bindings = <
-&trans  &kp N8  &kp N7  &kp N6  &none   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N0  &kp N9  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F7  &kp F8  &kp F9  &none   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F4  &kp F5  &kp F6  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_12 {
+            bindings = <
+&trans  &none   &kp F4   &kp F5   &kp F6   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F10  &kp F11  &kp F12  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1   &kp F2   &kp F3   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans   &trans   &trans                                    &trans  &trans  &trans
             >;
         };
     };
