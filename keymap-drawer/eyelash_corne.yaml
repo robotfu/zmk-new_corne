@@ -2,10 +2,10 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   home:
   - {t: '`', s: '~'}
-  - Q
+  - {t: Q, h: q}
   - W
   - E
-  - {t: R, h: z}
+  - {t: R, h: r}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
@@ -495,7 +495,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
-  - {t: '5', s: '%', type: held}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -520,7 +520,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '2', s: '@'}
@@ -544,7 +544,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -588,9 +588,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '12':
+  q:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - F4
   - F5
   - F6
