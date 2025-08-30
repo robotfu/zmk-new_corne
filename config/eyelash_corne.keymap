@@ -285,7 +285,7 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE  &kp Q        &kp W        &kp E            &lt 10 R      &kp T                     &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
+&kp GRAVE  &lt 12 Q     &kp W        &kp E            &lt 11 R      &kp T                     &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
 &kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
 &leader_1  &lt 10 Z     &kp X        &lt 4 C          &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
                                      &mt LALT ESCAPE  &lt 2 SPACE   &none                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
@@ -412,7 +412,7 @@
             >;
         };
 
-        layer_12 {
+        q {
             bindings = <
 &trans  &none   &kp F4   &kp F5   &kp F6   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp F10  &kp F11  &kp F12  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
