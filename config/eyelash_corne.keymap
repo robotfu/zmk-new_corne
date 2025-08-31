@@ -186,17 +186,17 @@
 
         sk_ctl: sk_ctl {
             bindings = <&sk LCTRL>;
-            key-positions = <17 31>;
+            key-positions = <43 16>;
         };
 
         sk_alt: sk_alt {
             bindings = <&sk LALT>;
-            key-positions = <17 30>;
+            key-positions = <43 15>;
         };
 
         sk_win: sk_win {
             bindings = <&sk LWIN>;
-            key-positions = <29 17>;
+            key-positions = <43 14>;
         };
 
         sk_sft: sk_sft {
