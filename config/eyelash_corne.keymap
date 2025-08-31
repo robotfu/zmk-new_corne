@@ -209,31 +209,31 @@
         n6_l: n6_l {
             bindings = <&kp N6>;
             key-positions = <17 16>;
-            layers = <11>;
+            layers = <9>;
         };
 
         n7_l: n7_l {
             bindings = <&kp N7>;
             key-positions = <15 16>;
-            layers = <11>;
+            layers = <9>;
         };
 
         n8_l: n8_l {
             bindings = <&kp N8>;
             key-positions = <14 15>;
-            layers = <11>;
+            layers = <9>;
         };
 
         n9_l: n9_l {
             bindings = <&kp N9>;
             key-positions = <17 15>;
-            layers = <11>;
+            layers = <9>;
         };
 
         n0_l: n0_l {
             bindings = <&kp N0>;
             key-positions = <14 16>;
-            layers = <11>;
+            layers = <9>;
         };
 
         /* 图层切换 (Layer Switching) */
@@ -317,6 +317,18 @@
             bindings = <&kp LC(LA(LS(LWIN)))>;
             key-positions = <14 17>;
         };
+
+        lock_v {
+            bindings = <&to 10>;
+            key-positions = <32 43>;
+            layers = <0>;
+        };
+
+        unlock_v {
+            bindings = <&to 0>;
+            key-positions = <32 43>;
+            layers = <10>;
+        };
     };
 
     keymap {
@@ -325,10 +337,10 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE  &lt 10 Q     &kp W        &kp E         &lt 9 R       &kp T                     &kp UP_ARROW             &kp Y  &kp U            &kp I         &kp O        &kp P          &kp EQUAL
+&kp GRAVE  &lt 7 Q      &kp W        &kp E         &kp R         &kp T                     &kp UP_ARROW             &kp Y  &kp U            &kp I         &kp O        &kp P          &kp EQUAL
 &kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H  &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1  &lt 12 Z     &kp X        &lt 4 C       &lt 0 V       &kp B  &to 0              &kp DOWN                 &kp N  &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
-                                     &none         &lt 11 SPACE  &none                                              &none  &lt 5 BACKSPACE  &none
+&leader_1  &lt 5 Z      &kp X        &lt 4 C       &lt 10 V      &kp B  &to 0              &kp DOWN                 &kp N  &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
+                                     &none         &lt 9 SPACE   &none                                              &none  &lt 5 BACKSPACE  &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -381,10 +393,10 @@
 
         num {
             bindings = <
-&trans  &trans   &kp N7  &kp N8  &kp N9  &trans                     &kp PAGE_UP             &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp N0   &kp N4  &kp N5  &kp N6  &trans           &kp HOME  &trans         &kp END  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
-&trans  &kp DOT  &kp N1  &kp N2  &kp N3  &trans  &to 0              &kp PAGE_DOWN           &trans  &trans     &trans     &trans    &trans    &trans
-                         &trans  &kp N0  &trans                                             &trans  &trans     &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                     &kp PAGE_UP             &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans           &kp HOME  &trans         &kp END  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
+&trans  &none   &kp N1  &kp N2  &kp N3  &trans  &to 0              &kp PAGE_DOWN           &trans  &trans     &trans     &trans    &trans    &trans
+                        &trans  &kp N0  &trans                                             &trans  &trans     &trans
             >;
 
             label = "num";
@@ -425,24 +437,6 @@
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
-        r {
-            bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &none   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F1  &kp F2  &kp F3  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F4  &kp F5  &kp F6  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
-        };
-
-        q {
-            bindings = <
-&trans  &none   &kp F4   &kp F5   &kp F6   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F10  &kp F11  &kp F12  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F1   &kp F2   &kp F3   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans   &trans   &trans                                    &trans  &trans  &trans
-            >;
-        };
-
         l_thumb {
             bindings = <
 &trans  &trans  &kp HOME   &kp UP    &kp END    &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
@@ -452,20 +446,11 @@
             >;
         };
 
-        z {
-            bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &none   &kp N1  &kp N2  &kp N3  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &kp N0  &trans                                    &trans  &trans  &trans
-            >;
-        };
-
         v {
             bindings = <
 &trans  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N  &kp M  &to 13  &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N  &kp M  &to 10  &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                       &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
