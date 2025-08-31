@@ -335,8 +335,8 @@
             key-positions = <17 32>;
         };
 
-        f23 {
-            bindings = <&kp F23>;
+        f13 {
+            bindings = <&kp F13>;
             key-positions = <23 26>;
         };
     };
