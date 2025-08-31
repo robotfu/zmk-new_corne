@@ -10,7 +10,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - Y
   - U
-  - {t: I, h: F14}
+  - {t: I, h: F13}
   - O
   - P
   - {t: '=', s: +}
