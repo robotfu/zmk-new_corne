@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: l_thumb}
+  - {t: '$$mdi:keyboard-space$$', h: lnav}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', h: num}
@@ -214,7 +214,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -392,7 +392,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  l_thumb:
+  lnav:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
@@ -472,19 +472,19 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 16]
   k: {t: '6', s: ^}
-  l: [l_thumb]
+  l: [lnav]
 - p: [15, 16]
   k: {t: '7', s: '&'}
-  l: [l_thumb]
+  l: [lnav]
 - p: [14, 15]
   k: {t: '8', s: '*'}
-  l: [l_thumb]
+  l: [lnav]
 - p: [17, 15]
   k: {t: '9', s: (}
-  l: [l_thumb]
+  l: [lnav]
 - p: [14, 16]
   k: {t: '0', s: )}
-  l: [l_thumb]
+  l: [lnav]
 - p: [30, 16, 32]
   k: {t: home, h: toggle}
   l: [nav, home]
