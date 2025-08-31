@@ -232,7 +232,7 @@
 
         n0_l: n0_l {
             bindings = <&kp N0>;
-            key-positions = <17 14>;
+            key-positions = <14 16>;
             layers = <12>;
         };
 
@@ -310,7 +310,12 @@
 
         n5_l {
             bindings = <&kp N5>;
-            key-positions = <17 14>;
+            key-positions = <14 16>;
+        };
+
+        hyper {
+            bindings = <&kp LC(LA(LS(LWIN)))>;
+            key-positions = <14 17>;
         };
     };
 
