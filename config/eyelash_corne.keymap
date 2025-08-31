@@ -332,7 +332,7 @@
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <4 17>;
+            key-positions = <17 32>;
         };
     };
 
