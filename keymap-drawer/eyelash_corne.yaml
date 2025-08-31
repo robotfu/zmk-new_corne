@@ -472,14 +472,19 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 16]
   k: {t: '6', s: ^}
+  l: [lnav]
 - p: [15, 16]
   k: {t: '7', s: '&'}
+  l: [lnav]
 - p: [14, 15]
   k: {t: '8', s: '*'}
+  l: [lnav]
 - p: [17, 15]
   k: {t: '9', s: (}
+  l: [lnav]
 - p: [14, 16]
   k: {t: '0', s: )}
+  l: [lnav]
 - p: [30, 16, 32]
   k: {t: home, h: toggle}
   l: [nav, home]
