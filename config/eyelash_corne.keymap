@@ -260,7 +260,7 @@
             layers = <6 0>;
         };
 
-        lock_mou: lock_mou {
+        lock_mou: lock_fun {
             bindings = <&tog 3>;
             key-positions = <15 31 17>;
             layers = <0 3>;
