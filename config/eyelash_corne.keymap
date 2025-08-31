@@ -422,7 +422,7 @@
             label = "fun";
         };
 
-        l_thumb {
+        lnav {
             bindings = <
 &trans  &trans  &kp HOME   &kp UP    &kp END    &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
