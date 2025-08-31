@@ -462,11 +462,11 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$
-- p: [17, 31]
+- p: [43, 16]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-- p: [17, 30]
+- p: [43, 15]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-- p: [29, 17]
+- p: [43, 14]
   k: {t: LWIN, h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 43]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
