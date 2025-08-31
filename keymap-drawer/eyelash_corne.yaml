@@ -4,13 +4,13 @@ layers:
   - {t: '`', s: '~'}
   - {t: Q, h: fun}
   - W
-  - E
+  - {t: E, h: F13}
   - R
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - {t: U, h: F13}
-  - I
+  - U
+  - {t: I, h: F14}
   - O
   - P
   - {t: '=', s: +}
