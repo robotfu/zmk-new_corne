@@ -313,8 +313,8 @@
             key-positions = <14 16>;
         };
 
-        hyper {
-            bindings = <&kp LC(LA(LS(LWIN)))>;
+        f24 {
+            bindings = <&kp F24>;
             key-positions = <14 17>;
         };
 
