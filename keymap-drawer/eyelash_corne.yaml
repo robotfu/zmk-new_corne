@@ -650,7 +650,7 @@ combos:
   k: '{'
 - p: [1, 15]
   k: '}'
-- p: [17, 32]
+- p: [32, 31]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [16, 32]
   k: {t: '$$mdi:backspace$$', type: backspace}
@@ -658,8 +658,6 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$
-- p: [31, 32]
-  k: $$mdi:keyboard-tab$$
 - p: [17, 31]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 30]
@@ -694,3 +692,17 @@ combos:
   k: $$mdi:progress-download$$
 - p: [13, 28]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
+- p: [31, 30]
+  k: $$mdi:keyboard-tab$$
+- p: [29, 30]
+  k: $$mdi:keyboard-esc$$
+- p: [16, 17]
+  k: {t: '1', s: '!'}
+- p: [16, 15]
+  k: {t: '2', s: '@'}
+- p: [15, 14]
+  k: '3'
+- p: [17, 15]
+  k: {t: '4', s: $}
+- p: [17, 14]
+  k: {t: '5', s: '%'}
