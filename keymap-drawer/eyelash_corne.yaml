@@ -516,7 +516,7 @@ combos:
 - p: [14, 16]
   k: {t: '5', s: '%'}
 - p: [14, 17]
-  k: Meh+LWIN
+  k: F24
 - p: [32, 43]
   k: {t: mir, h: toggle}
   l: [home]
