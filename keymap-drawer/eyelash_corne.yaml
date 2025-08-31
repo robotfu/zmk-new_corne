@@ -523,3 +523,5 @@ combos:
 - p: [32, 43]
   k: {t: home, h: toggle}
   l: [mir]
+- p: [3, 4]
+  k: {t: ;, s: ':'}
