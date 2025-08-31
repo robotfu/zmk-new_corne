@@ -208,27 +208,32 @@
 
         n6_l: n6_l {
             bindings = <&kp N6>;
-            key-positions = <43 17 16>;
+            key-positions = <17 16>;
+            layers = <13>;
         };
 
         n7_l: n7_l {
             bindings = <&kp N7>;
-            key-positions = <15 16 43>;
+            key-positions = <15 16>;
+            layers = <13>;
         };
 
         n8_l: n8_l {
             bindings = <&kp N8>;
-            key-positions = <43 14 15>;
+            key-positions = <14 15>;
+            layers = <13>;
         };
 
         n9_l: n9_l {
             bindings = <&kp N9>;
-            key-positions = <43 17 15>;
+            key-positions = <17 15>;
+            layers = <13>;
         };
 
         n0_l: n0_l {
             bindings = <&kp N0>;
-            key-positions = <17 14 43>;
+            key-positions = <17 14>;
+            layers = <13>;
         };
 
         /* 图层切换 (Layer Switching) */
@@ -315,10 +320,10 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE  &lt 12 Q     &kp W        &kp E            &lt 11 R      &kp T                     &kp UP_ARROW             &kp Y        &kp U            &kp I         &kp O        &kp P          &kp EQUAL
-&kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H        &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1  &lt 10 Z     &kp X        &lt 4 C          &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N        &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
-                                     &mt LALT ESCAPE  &lt 2 SPACE   &none                                              &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
+&kp GRAVE  &lt 12 Q     &kp W        &kp E         &lt 11 R      &kp T                     &kp UP_ARROW             &kp Y  &kp U            &kp I         &kp O        &kp P          &kp EQUAL
+&kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H  &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
+&leader_1  &lt 10 Z     &kp X        &lt 4 C       &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N  &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
+                                     &none         &lt 2 SPACE   &none                                              &none  &lt 5 BACKSPACE  &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -448,6 +453,15 @@
 &trans  &trans  &kp F10  &kp F11  &kp F12  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp F1   &kp F2   &kp F3   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                          &trans   &trans   &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        l_thumb {
+            bindings = <
+&trans  &trans  &kp HOME   &kp UP    &kp END    &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans    &none      &trans                                    &trans  &trans  &trans
             >;
         };
     };
