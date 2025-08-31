@@ -241,7 +241,7 @@
         lock_lnav: lock_lnav {
             bindings = <&tog 0>;
             key-positions = <30 16 32>;
-            layers = <2 0 1>;
+            layers = <2 0>;
         };
 
         tog_num: tog_num {
@@ -249,7 +249,7 @@
             key-positions = <15 3 17>;
             timeout-ms = <25>;
             require-prior-idle-ms = <10>;
-            layers = <5 0 1>;
+            layers = <5 0>;
         };
 
         tog_sym: tog_sym {
@@ -257,13 +257,13 @@
             key-positions = <2 16 4>;
             timeout-ms = <25>;
             require-prior-idle-ms = <10>;
-            layers = <6 0 1>;
+            layers = <6 0>;
         };
 
         lock_mou: lock_mou {
             bindings = <&tog 3>;
             key-positions = <15 31 17>;
-            layers = <0 1 3>;
+            layers = <0 3>;
         };
 
         /* 系统与固件功能 (System & Firmware Functions) */
@@ -319,7 +319,7 @@
         };
 
         lock_v {
-            bindings = <&to 9>;
+            bindings = <&to 1>;
             key-positions = <32 43>;
             layers = <0>;
         };
@@ -327,7 +327,7 @@
         unlock_v {
             bindings = <&to 0>;
             key-positions = <32 43>;
-            layers = <9>;
+            layers = <1>;
         };
     };
 
@@ -338,8 +338,8 @@
             display-name = "home";
             bindings = <
 &kp GRAVE  &lt 7 Q      &kp W        &kp E         &kp R         &kp T                     &kp UP_ARROW             &kp Y  &kp U            &kp I         &kp O        &kp P          &kp EQUAL
-&kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G           &kp LEFT  &tog 1        &kp RIGHT  &kp H  &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1  &lt 5 Z      &kp X        &lt 4 C       &lt 9 V       &kp B  &to 0              &kp DOWN                 &kp N  &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
+&kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G           &kp LEFT  &tog 0        &kp RIGHT  &kp H  &hmr LSHFT J     &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
+&leader_1  &lt 5 Z      &kp X        &lt 4 C       &lt 1 V       &kp B  &to 0              &kp DOWN                 &kp N  &lt 6 M          &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
                                      &none         &lt 8 SPACE   &none                                              &none  &lt 5 BACKSPACE  &none
             >;
 
@@ -348,14 +348,11 @@
 
         mir {
             bindings = <
-&kp EQUAL  &kp P         &kp O       &kp I         &kp U            &kp Y                         &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp MINUS  &mt LGUI SQT  &mt LALT L  &mt LCTRL K   &mt LSHFT J      &kp H                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp BSLH   &kp FSLH      &kp DOT     &kp COMMA     &kp M            &kp N        &to 0            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                     &lt 7 DELETE  &lt 5 BACKSPACE  &lt 6 ENTER                                   &trans  &trans  &trans
+&trans  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N  &kp M  &to 1   &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
-
-            label = "mirror";
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         nav {
@@ -416,10 +413,10 @@
 
         fun {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8      &kp F9     &kp PSCRN                         &trans          &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5      &kp F6     &kp SCROLLLOCK            &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
-&trans  &kp F10  &kp F1  &kp F2      &kp F3     &kp PAUSE_BREAK  &to 0            &trans          &trans  &trans     &trans     &trans    &trans    &trans
-                         &kp C_MENU  &kp SPACE  &kp TAB                                           &trans  &trans     &trans
+&trans  &kp F12  &kp F7  &kp F8      &kp F9   &kp PSCRN                         &trans          &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5      &kp F6   &kp SCROLLLOCK            &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
+&trans  &kp F10  &kp F1  &kp F2      &kp F3   &kp PAUSE_BREAK  &to 0            &trans          &trans  &trans     &trans     &trans    &trans    &trans
+                         &kp C_MENU  &kp F12  &kp TAB                                           &trans  &trans     &trans
             >;
 
             label = "fun";
@@ -431,15 +428,6 @@
 &trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                            &trans    &none      &trans                                    &trans  &trans  &trans
-            >;
-        };
-
-        v {
-            bindings = <
-&trans  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N  &kp M  &to 9   &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
