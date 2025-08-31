@@ -329,6 +329,11 @@
             key-positions = <32 43>;
             layers = <1>;
         };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
