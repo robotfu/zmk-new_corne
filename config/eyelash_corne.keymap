@@ -334,6 +334,11 @@
             bindings = <&kp SEMI>;
             key-positions = <17 32>;
         };
+
+        f23 {
+            bindings = <&kp F23>;
+            key-positions = <23 26>;
+        };
     };
 
     keymap {
