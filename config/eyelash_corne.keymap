@@ -36,13 +36,6 @@
 
 / {
     behaviors {
-        toggle_mod_off: toggle_mod_off {
-            compatible = "zmk,behavior-key-toggle";
-            #binding-cells = <1>;
-            display-name = "Key Toggle Off";
-            toggle-mode = "off";
-        };
-
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&kp>, <&kp>;
@@ -99,15 +92,6 @@
                 sequence = <F>;
                 bindings = <&kt LSHFT>;
             };
-        };
-
-        colon_semi: colon_semi {
-            compatible = "zmk,behavior-mod-morph";
-            label = "COLON_SEMI";
-            bindings = <&kp COLON>, <&kp SEMICOLON>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
@@ -184,23 +168,23 @@
 
         /* 修饰键 (Modifier Keys) */
 
-        sk_ctl: sk_ctl {
-            bindings = <&sk LCTRL>;
+        sk_ctl: kt_ctl {
+            bindings = <&kt LCTRL>;
             key-positions = <43 16>;
         };
 
-        sk_alt: sk_alt {
-            bindings = <&sk LALT>;
+        sk_alt: kt_alt {
+            bindings = <&kt LALT>;
             key-positions = <43 15>;
         };
 
-        sk_win: sk_win {
-            bindings = <&sk LWIN>;
+        sk_win: kt_win {
+            bindings = <&kt LWIN>;
             key-positions = <43 14>;
         };
 
-        sk_sft: sk_sft {
-            bindings = <&sk LSHFT>;
+        sk_sft: kt_sft {
+            bindings = <&kt LSHFT>;
             key-positions = <17 43>;
         };
 
