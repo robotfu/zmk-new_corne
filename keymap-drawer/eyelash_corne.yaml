@@ -463,13 +463,13 @@ combos:
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$
 - p: [43, 16]
-  k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: '$$mdi:apple-keyboard-control$$', h: toggle}
 - p: [43, 15]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
 - p: [43, 14]
-  k: {t: LWIN, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: LWIN, h: toggle}
 - p: [17, 43]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
 - p: [17, 16]
   k: {t: '6', s: ^}
   l: [lnav]
