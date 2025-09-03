@@ -47,10 +47,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             label = "CLEAR_ALL_TOGGLES";
-            bindings = <&kt_off LSHFT>, <&kt_off RSHFT>,
-                     <&kt_off LCTL>, <&kt_off RCTL>,
-                     <&kt_off LALT>, <&kt_off RALT>,
-                     <&kt_off LGUI>, <&kt_off RGUI>;
+            bindings = <&kt_off LSHFT &kt_off RSHFT &kt_off LCTRL &kt_off RCTRL &kt_off LALT &kt_off RALT &kt_off LGUI &kt_off RGUI>;
         };
 
         hml: homerow_mods_left {
@@ -340,6 +337,9 @@
             bindings = <&kp F13>;
             key-positions = <23 26>;
         };
+    };
+
+    macros {
     };
 
     keymap {
