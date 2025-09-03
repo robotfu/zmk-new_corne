@@ -36,6 +36,23 @@
 
 / {
     behaviors {
+        kt_off: key_toggle_off_only {
+            compatible = "zmk,behavior-key-toggle";
+            #binding-cells = <1>;
+            label = "KEY_TOGGLE_OFF_ONLY";
+            toggle-mode = "off";
+        };
+
+        clear_all_toggles: clear_all_toggles {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "CLEAR_ALL_TOGGLES";
+            bindings = <&kt_off LSHFT>, <&kt_off RSHFT>,
+                     <&kt_off LCTL>, <&kt_off RCTL>,
+                     <&kt_off LALT>, <&kt_off RALT>,
+                     <&kt_off LGUI>, <&kt_off RGUI>;
+        };
+
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&kp>, <&kp>;
