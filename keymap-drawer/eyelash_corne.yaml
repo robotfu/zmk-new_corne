@@ -3,16 +3,16 @@ layers:
   home:
   - {t: '`', s: '~'}
   - {t: Q, h: fun}
-  - W
+  - {t: W, h: F12}
   - {t: E, h: F13}
-  - R
-  - T
+  - {t: R, h: F14}
+  - {t: T, h: F15}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - Y
-  - U
-  - {t: I, h: F13}
-  - O
-  - P
+  - {t: Y, h: F16}
+  - {t: U, h: F17}
+  - {t: I, h: F18}
+  - {t: O, h: F19}
+  - {t: P, h: F20}
   - {t: '=', s: +}
   - ':'
   - {t: A, h: LWIN}
@@ -46,9 +46,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: lnav}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F13
-  - {t: '$$mdi:backspace$$', h: F13}
-  - F23
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', h: F24}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   mir:
   - {t: '$$mdi:transfer$$', type: trans}
   - Y
