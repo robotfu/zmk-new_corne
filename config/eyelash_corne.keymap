@@ -162,7 +162,7 @@
 
         enter: enter {
             bindings = <&kp ENTER>;
-            key-positions = <31 17>;
+            key-positions = <17 15 16>;
         };
 
         bksp: bksp {
