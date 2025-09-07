@@ -312,7 +312,7 @@
         };
 
         f24 {
-            bindings = <&kp F24>;
+            bindings = <&key_repeat>;
             key-positions = <14 17>;
         };
 
