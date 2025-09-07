@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: lnav}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', h: F24}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mir:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -436,7 +436,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -454,7 +454,7 @@ combos:
   k: '{'
 - p: [1, 15]
   k: '}'
-- p: [32, 31]
+- p: [31, 17]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [16, 32]
   k: {t: '$$mdi:backspace$$', type: backspace}
@@ -527,3 +527,5 @@ combos:
   k: {t: ;, s: ':'}
 - p: [23, 26]
   k: F13
+- p: [31, 32]
+  k: $$mdi:keyboard-space$$
