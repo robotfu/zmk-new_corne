@@ -353,10 +353,10 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE  &lt 7 Q      &hml F12 W   &hml F13 E    &hml F14 R    &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U         &hml F18 I    &hml F19 O   &hml F20 P     &kp EQUAL
-&kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J       &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
-&leader_1  &lt 5 Z      &kp X        &lt 4 C       &lt 1 V       &kp B       &to 0               &kt LEFT_WIN                &kp N       &lt 6 M            &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
-                                     &none         &lt 8 SPACE   &none                                                       &none       &mt F24 BACKSPACE  &none
+&kp GRAVE  &lt 7 Q      &hml F12 W   &hml F13 E    &hml F14 R    &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U    &hml F18 I    &hml F19 O   &hml F20 P     &kp EQUAL
+&kp COLON  &hml LWIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K  &hmr LALT L  &hmr LWIN SQT  &kp MINUS
+&leader_1  &lt 5 Z      &kp X        &lt 4 C       &lt 1 V       &kp B       &to 0               &kt LEFT_WIN                &kp N       &lt 6 M       &lt 7 COMMA   &kp DOT      &kp SLASH      &kp BACKSLASH
+                                     &none         &none         &none                                                       &none       &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
