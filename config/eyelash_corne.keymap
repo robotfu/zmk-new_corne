@@ -324,13 +324,13 @@
 
         unlock_v {
             bindings = <&to 0>;
-            key-positions = <32 43>;
+            key-positions = <43 32>;
             layers = <1>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <17 32>;
+            key-positions = <9 23>;
         };
 
         f13 {
@@ -341,6 +341,11 @@
         panic {
             bindings = <&clear_all_toggles>;
             key-positions = <14 15 16 17>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <31 32>;
         };
     };
 
