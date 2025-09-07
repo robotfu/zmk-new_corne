@@ -289,7 +289,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -462,29 +462,29 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$
-- p: [43, 16]
+- p: [16, 33]
   k: {t: '$$mdi:apple-keyboard-control$$', h: toggle}
-- p: [43, 15]
+- p: [15, 33]
   k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
-- p: [43, 14]
+- p: [14, 33]
   k: {t: LWIN, h: toggle}
-- p: [17, 43]
+- p: [17, 33]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
 - p: [17, 16]
   k: {t: '6', s: ^}
-  l: [lnav]
+  l: [mir, num]
 - p: [15, 16]
   k: {t: '7', s: '&'}
-  l: [lnav]
+  l: [mir, num]
 - p: [14, 15]
   k: {t: '8', s: '*'}
-  l: [lnav]
+  l: [mir, num]
 - p: [17, 15]
   k: {t: '9', s: (}
-  l: [lnav]
+  l: [mir, num]
 - p: [14, 16]
   k: {t: '0', s: )}
-  l: [lnav]
+  l: [mir, num]
 - p: [30, 16, 32]
   k: {t: lnav, h: toggle}
   l: [nav, home]
@@ -527,5 +527,5 @@ combos:
   k: {t: ;, s: ':'}
 - p: [23, 26]
   k: F13
-- p: [31, 32]
-  k: $$mdi:keyboard-space$$
+- p: [14, 15, 16, 17]
+  k: '&clear_all_toggles'
