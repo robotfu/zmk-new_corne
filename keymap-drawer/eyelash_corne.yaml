@@ -486,7 +486,7 @@ combos:
   k: {t: '0', s: )}
   l: [lnav]
 - p: [30, 16, 32]
-  k: {t: home, h: toggle}
+  k: {t: lnav, h: toggle}
   l: [nav, home]
 - p: [15, 3, 17]
   k: {t: num, h: toggle}
