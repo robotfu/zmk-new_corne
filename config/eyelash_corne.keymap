@@ -451,6 +451,15 @@
                            &trans    &trans     &trans                                    &trans  &trans     &trans
             >;
         };
+
+        rgb {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD                 &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI                 &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,0,100)  &trans           &rgb_ug RGB_EFF  &trans
+                        &trans  &trans  &trans                                    &trans           &trans           &trans
+            >;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
