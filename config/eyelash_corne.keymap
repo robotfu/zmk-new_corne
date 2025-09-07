@@ -237,7 +237,7 @@
         /* 图层切换 (Layer Switching) */
 
         lock_lnav: lock_lnav {
-            bindings = <&tog 0>;
+            bindings = <&tog 8>;
             key-positions = <30 16 32>;
             layers = <2 0>;
         };
