@@ -454,7 +454,7 @@ combos:
   k: '{'
 - p: [1, 15]
   k: '}'
-- p: [31, 17]
+- p: [17, 15, 16]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [16, 32]
   k: {t: '$$mdi:backspace$$', type: backspace}
