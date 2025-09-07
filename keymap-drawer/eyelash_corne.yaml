@@ -31,9 +31,9 @@ layers:
   - {t: '-', s: _}
   - '&leader_1'
   - {t: Z, h: num}
-  - X
-  - {t: C, h: media}
-  - {t: V, h: mir}
+  - {t: X, h: media}
+  - {t: C, h: mir}
+  - {t: V, h: lnav}
   - B
   - {t: home, h: toggle}
   - {t: LEFT WIN, h: toggle}
@@ -81,8 +81,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - N
   - M
-  - {t: mir, h: toggle}
   - {t: home, h: toggle, type: held}
+  - {t: mir, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -227,8 +227,8 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: home, h: toggle}
@@ -425,7 +425,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG DN
+  - {t: PG DN, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
