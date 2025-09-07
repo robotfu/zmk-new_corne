@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             label = "CLEAR_ALL_TOGGLES";
-            bindings = <&kt_off LSHFT &kt_off RSHFT &kt_off LCTRL &kt_off RCTRL &kt_off LALT &kt_off RALT &kt_off LGUI &kt_off RGUI>;
+            bindings = <&kt_off LSHFT &kt_off RSHFT &kt_off LCTRL &kt_off RCTRL &kt_off LALT &kt_off RALT &kt_off LGUI &kt_off RGUI &to 0>;
         };
 
         hml: homerow_mods_left {
@@ -184,22 +184,22 @@
 
         sk_ctl: kt_ctl {
             bindings = <&kt LCTRL>;
-            key-positions = <43 16>;
+            key-positions = <16 33>;
         };
 
         sk_alt: kt_alt {
             bindings = <&kt LALT>;
-            key-positions = <43 15>;
+            key-positions = <15 33>;
         };
 
         sk_win: kt_win {
             bindings = <&kt LWIN>;
-            key-positions = <43 14>;
+            key-positions = <14 33>;
         };
 
         sk_sft: kt_sft {
             bindings = <&kt LSHFT>;
-            key-positions = <17 43>;
+            key-positions = <17 33>;
         };
 
         /* 数字输入 (Number Input) */
@@ -207,31 +207,31 @@
         n6_l: n6_l {
             bindings = <&kp N6>;
             key-positions = <17 16>;
-            layers = <8>;
+            layers = <1 5>;
         };
 
         n7_l: n7_l {
             bindings = <&kp N7>;
             key-positions = <15 16>;
-            layers = <8>;
+            layers = <1 5>;
         };
 
         n8_l: n8_l {
             bindings = <&kp N8>;
             key-positions = <14 15>;
-            layers = <8>;
+            layers = <1 5>;
         };
 
         n9_l: n9_l {
             bindings = <&kp N9>;
             key-positions = <17 15>;
-            layers = <8>;
+            layers = <1 5>;
         };
 
         n0_l: n0_l {
             bindings = <&kp N0>;
             key-positions = <14 16>;
-            layers = <8>;
+            layers = <1 5>;
         };
 
         /* 图层切换 (Layer Switching) */
@@ -338,9 +338,9 @@
             key-positions = <23 26>;
         };
 
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <31 32>;
+        panic {
+            bindings = <&clear_all_toggles>;
+            key-positions = <14 15 16 17>;
         };
     };
 
@@ -409,7 +409,7 @@
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans                     &kp PAGE_UP             &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans           &kp HOME  &trans         &kp END  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
 &trans  &none   &kp N1  &kp N2  &kp N3  &trans  &to 0              &kp PAGE_DOWN           &trans  &trans     &trans     &trans    &trans    &trans
-                        &trans  &kp N0  &trans                                             &trans  &trans     &trans
+                        &trans  &trans  &trans                                             &trans  &trans     &trans
             >;
 
             label = "num";
