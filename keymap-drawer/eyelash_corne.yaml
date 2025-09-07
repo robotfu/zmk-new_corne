@@ -520,12 +520,14 @@ combos:
 - p: [32, 43]
   k: {t: mir, h: toggle}
   l: [home]
-- p: [32, 43]
+- p: [43, 32]
   k: {t: home, h: toggle}
   l: [mir]
-- p: [17, 32]
+- p: [9, 23]
   k: {t: ;, s: ':'}
 - p: [23, 26]
   k: F13
 - p: [14, 15, 16, 17]
   k: '&clear_all_toggles'
+- p: [31, 32]
+  k: $$mdi:keyboard-space$$
