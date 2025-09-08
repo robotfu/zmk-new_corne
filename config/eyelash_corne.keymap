@@ -107,6 +107,13 @@
                 bindings = <&kt LSHFT>;
             };
         };
+
+        alt_shift_dance: alt_shift_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ALT_SHIFT_DANCE";
+            #binding-cells = <0>;
+            bindings = <&mt LEFT_ALT A>, <&mt LEFT_SHIFT A>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -358,10 +365,10 @@
         home {
             display-name = "home";
             bindings = <
-&kp GRAVE  &lt 7 Q  &hml F12 W   &hml F13 E       &hml F14 R    &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U    &hml F18 I       &hml F19 O   &hml F20 P  &kp EQUAL
-&kp COLON  &lt 8 A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L  &lt 8 SQT   &kp MINUS
-&leader_1  &lt 5 Z  &lt 4 X      &hml LEFT_WIN C  &lt 1 V       &kp B       &to 0               &kt LEFT_WIN                &kp N       &lt 6 M       &hmr LWIN COMMA  &kp DOT      &kp SLASH   &kp BACKSLASH
-                                 &none            &none         &none                                                       &none       &none         &none
+&kp GRAVE         &lt 7 Q  &hml F12 W   &hml F13 E       &hml F14 R    &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U    &hml F18 I       &hml F19 O   &hml F20 P  &kp EQUAL
+&kp COLON         &lt 8 A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L  &lt 8 SQT   &kp MINUS
+&alt_shift_dance  &lt 5 Z  &lt 4 X      &hml LEFT_WIN C  &lt 1 V       &kp B       &to 0               &kt LEFT_WIN                &kp N       &lt 6 M       &hmr LWIN COMMA  &kp DOT      &kp SLASH   &kp BACKSLASH
+                                        &none            &none         &none                                                       &none       &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
