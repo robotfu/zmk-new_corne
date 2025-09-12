@@ -325,7 +325,7 @@
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <9 23>;
+            key-positions = <9 8>;
         };
 
         f13 {
