@@ -137,32 +137,32 @@
 
         lp: lp {
             bindings = <&kp LPAR>;
-            key-positions = <4 16>;
+            key-positions = <23 9>;
         };
 
         rp: rp {
             bindings = <&kp RPAR>;
-            key-positions = <3 17>;
+            key-positions = <9 25>;
         };
 
         lb: lb {
             bindings = <&kp LBKT>;
-            key-positions = <3 15>;
+            key-positions = <10 24>;
         };
 
         rb: rb {
             bindings = <&kp RBKT>;
-            key-positions = <2 16>;
+            key-positions = <10 26>;
         };
 
         lbb: lbb {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 14>;
+            key-positions = <>;
         };
 
         rbb: rbb {
             bindings = <&kp RBRC>;
-            key-positions = <1 15>;
+            key-positions = <>;
         };
 
         /* 常用编辑键 (Common Editing Keys) */
