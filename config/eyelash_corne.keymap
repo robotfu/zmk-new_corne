@@ -213,31 +213,31 @@
 
         n6_l: n6_l {
             bindings = <&kp N6>;
-            key-positions = <17 16>;
+            key-positions = <3 2>;
             layers = <1 5>;
         };
 
         n7_l: n7_l {
             bindings = <&kp N7>;
-            key-positions = <15 16>;
+            key-positions = <2 1>;
             layers = <1 5>;
         };
 
         n8_l: n8_l {
             bindings = <&kp N8>;
-            key-positions = <14 15>;
+            key-positions = <2 4>;
             layers = <1 5>;
         };
 
         n9_l: n9_l {
             bindings = <&kp N9>;
-            key-positions = <17 15>;
+            key-positions = <1 3>;
             layers = <1 5>;
         };
 
         n0_l: n0_l {
             bindings = <&kp N0>;
-            key-positions = <14 16>;
+            key-positions = <3 4>;
             layers = <1 5>;
         };
 
