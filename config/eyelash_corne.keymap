@@ -255,37 +255,37 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <31 30>;
+            key-positions = <16 15>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <29 30>;
+            key-positions = <15 14>;
         };
 
         n1_l {
             bindings = <&kp N1>;
-            key-positions = <16 17>;
+            key-positions = <31 32>;
         };
 
         n2_l {
             bindings = <&kp N2>;
-            key-positions = <16 15>;
+            key-positions = <31 30>;
         };
 
         n3_l {
             bindings = <&kp NUMBER_3>;
-            key-positions = <15 14>;
+            key-positions = <29 30>;
         };
 
         n4_l {
             bindings = <&kp N4>;
-            key-positions = <17 15>;
+            key-positions = <30 32>;
         };
 
         n5_l {
             bindings = <&kp N5>;
-            key-positions = <14 16>;
+            key-positions = <29 31>;
         };
 
         f24 {
@@ -305,7 +305,7 @@
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <31 32>;
+            key-positions = <16 17>;
         };
 
         r1 {
