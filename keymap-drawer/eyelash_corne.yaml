@@ -15,7 +15,7 @@ layers:
   - {t: P, h: F20}
   - {t: '=', s: +}
   - ':'
-  - {t: A, h: LWIN}
+  - {t: A, h: lnav}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
@@ -27,19 +27,19 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '''', h: LWIN, s: '"'}
+  - {t: '''', h: lnav, s: '"'}
   - {t: '-', s: _}
   - '&leader_1'
   - {t: Z, h: num}
   - {t: X, h: media}
-  - {t: C, h: mir}
-  - {t: V, h: lnav}
+  - {t: C, h: LEFT WIN}
+  - {t: V, h: mir}
   - B
   - {t: home, h: toggle}
   - {t: LEFT WIN, h: toggle}
   - N
   - {t: M, h: sym}
-  - {t: ',', h: fun, s: <}
+  - {t: ',', h: LWIN, s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, s: '|'}
@@ -81,8 +81,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - N
   - M
-  - {t: home, h: toggle, type: held}
   - {t: mir, h: toggle}
+  - {t: home, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -382,7 +382,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -407,7 +407,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -419,13 +419,13 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PG DN, type: held}
+  - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -441,93 +441,135 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  rgb:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRD
+  - RGB HUD
+  - RGB SAD
+  - RGB SPD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
+  - RGB BRI
+  - RGB HUI
+  - RGB SAI
+  - RGB SPI
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
+  - RGB COLOR HSB(0,0,100)
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [4, 16]
-  k: (
-- p: [3, 17]
-  k: )
-- p: [3, 15]
-  k: {t: '[', s: '{'}
-- p: [2, 16]
-  k: {t: ']', s: '}'}
-- p: [2, 14]
-  k: '{'
-- p: [1, 15]
-  k: '}'
+- p: [16, 17]
+  k: $$mdi:keyboard-space$$
+- p: [16, 15]
+  k: $$mdi:keyboard-tab$$
+- p: [15, 14]
+  k: $$mdi:keyboard-esc$$
 - p: [17, 15, 16]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [16, 32]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 30]
   k: $$mdi:backspace-reverse-outline$$
-- p: [17, 23]
-  k: $$mdi:apple-keyboard-caps$$
-- p: [16, 33]
-  k: {t: '$$mdi:apple-keyboard-control$$', h: toggle}
-- p: [15, 33]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
-- p: [14, 33]
-  k: {t: LWIN, h: toggle}
-- p: [17, 33]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-- p: [17, 16]
-  k: {t: '6', s: ^}
-  l: [mir, num]
-- p: [15, 16]
-  k: {t: '7', s: '&'}
-  l: [mir, num]
-- p: [14, 15]
-  k: {t: '8', s: '*'}
-  l: [mir, num]
-- p: [17, 15]
-  k: {t: '9', s: (}
-  l: [mir, num]
-- p: [14, 16]
-  k: {t: '0', s: )}
-  l: [mir, num]
+- p: [14, 17]
+  k: '&key_repeat'
+- p: [31, 32]
+  k: {t: '1', h: F1}
+- p: [31, 30]
+  k: {t: '2', h: F2}
+- p: [29, 30]
+  k: {t: '3', h: F3}
+- p: [30, 32]
+  k: {t: '4', h: F4}
+- p: [29, 31]
+  k: {t: '5', h: F5}
+- p: [3, 2]
+  k: {t: '6', h: F6}
+- p: [2, 1]
+  k: {t: '7', h: F7}
+- p: [2, 4]
+  k: {t: '8', h: F8}
+- p: [1, 3]
+  k: {t: '9', h: F9}
+- p: [3, 4]
+  k: {t: '0', h: F10}
+- p: [23, 9]
+  k: (
+- p: [9, 25]
+  k: )
+- p: [10, 24]
+  k: {t: '[', s: '{'}
+- p: [10, 26]
+  k: {t: ']', s: '}'}
+- p: [23, 10]
+  k: '{'
+- p: [9, 26]
+  k: '}'
 - p: [30, 16, 32]
   k: {t: lnav, h: toggle}
-  l: [nav, home]
 - p: [15, 3, 17]
   k: {t: num, h: toggle}
-  l: [num, home]
 - p: [2, 16, 4]
   k: {t: sym, h: toggle}
-  l: [sym, home]
 - p: [15, 31, 17]
   k: {t: mouse, h: toggle}
-  l: [home, mouse]
 - p: [0, 28]
   k: $$mdi:progress-download$$
 - p: [13, 28]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
-- p: [31, 30]
-  k: $$mdi:keyboard-tab$$
-- p: [29, 30]
-  k: $$mdi:keyboard-esc$$
-- p: [16, 17]
-  k: {t: '1', s: '!'}
-- p: [16, 15]
-  k: {t: '2', s: '@'}
-- p: [15, 14]
-  k: '3'
-- p: [17, 15]
-  k: {t: '4', s: $}
-- p: [14, 16]
-  k: {t: '5', s: '%'}
-- p: [14, 17]
-  k: F24
-- p: [32, 43]
-  k: {t: mir, h: toggle}
-  l: [home]
-- p: [43, 32]
-  k: {t: home, h: toggle}
-  l: [mir]
-- p: [9, 23]
+- p: [37, 38]
+  k: ':'
+- p: [38, 39]
   k: {t: ;, s: ':'}
-- p: [23, 26]
-  k: F13
-- p: [14, 15, 16, 17]
-  k: '&clear_all_toggles'
-- p: [31, 32]
-  k: $$mdi:keyboard-space$$
+- p: [23, 24]
+  k: '!'
+- p: [24, 25]
+  k: '@'
+- p: [25, 26]
+  k: '#'
+- p: [23, 25]
+  k: $
+- p: [24, 26]
+  k: '%'
+- p: [9, 10]
+  k: ^
+- p: [10, 11]
+  k: '&'
+- p: [10, 8]
+  k: '*'
+- p: [4, 3, 2]
+  k: F11
+- p: [2, 1, 3]
+  k: F12
