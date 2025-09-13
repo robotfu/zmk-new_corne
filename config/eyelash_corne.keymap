@@ -250,12 +250,12 @@
 
         lbb: lbb {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <>;
+            key-positions = <23 10>;
         };
 
         rbb: rbb {
             bindings = <&kp RBRC>;
-            key-positions = <>;
+            key-positions = <9 26>;
         };
 
         tog_lnav: tog_lnav {
@@ -340,6 +340,16 @@
         r8 {
             bindings = <&kp ASTERISK>;
             key-positions = <10 8>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <4 3 2>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <2 1 3>;
         };
     };
 
