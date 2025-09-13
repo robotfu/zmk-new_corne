@@ -188,27 +188,6 @@
         };
 
         /* 修饰键 (Modifier Keys) */
-
-        sk_ctl: kt_ctl {
-            bindings = <&kt LCTRL>;
-            key-positions = <>;
-        };
-
-        sk_alt: kt_alt {
-            bindings = <&kt LALT>;
-            key-positions = <>;
-        };
-
-        sk_win: kt_win {
-            bindings = <&kt LWIN>;
-            key-positions = <>;
-        };
-
-        sk_sft: kt_sft {
-            bindings = <&kt LSHFT>;
-            key-positions = <>;
-        };
-
         /* 数字输入 (Number Input) */
 
         n6_l: n6_l {
@@ -365,17 +344,17 @@
 
         r6 {
             bindings = <&kp CARET>;
-            key-positions = <8 9>;
+            key-positions = <9 10>;
         };
 
         r7 {
             bindings = <&kp AMPERSAND>;
-            key-positions = <9 10>;
+            key-positions = <10 11>;
         };
 
         r8 {
             bindings = <&kp ASTERISK>;
-            key-positions = <10 11>;
+            key-positions = <10 8>;
         };
     };
 
