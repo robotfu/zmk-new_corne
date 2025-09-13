@@ -368,6 +368,8 @@
 &trans  &kp N  &kp M  &to 1   &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                       &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
+
+            label = "mir";
         };
 
         nav {
@@ -444,6 +446,8 @@
 &trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans            &trans          &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans
                            &trans    &trans     &trans                                    &trans  &trans     &trans
             >;
+
+            label = "lnav";
         };
 
         rgb {
@@ -453,6 +457,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,0,100)  &trans           &rgb_ug RGB_EFF  &trans
                         &trans  &trans  &trans                                    &trans           &trans           &trans
             >;
+
+            label = "rgb";
         };
 
         sk {
