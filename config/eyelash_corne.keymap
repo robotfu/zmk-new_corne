@@ -114,6 +114,16 @@
             #binding-cells = <0>;
             bindings = <&mt LEFT_ALT A>, <&mt LEFT_SHIFT A>;
         };
+
+        num_fkey: num_fkey {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NUM_FKEY";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -264,7 +274,7 @@
         };
 
         n1_l {
-            bindings = <&kp N1>;
+            bindings = <&num_fkey F1 NUMBER_1>;
             key-positions = <31 32>;
         };
 
