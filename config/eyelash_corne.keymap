@@ -224,7 +224,7 @@
         };
 
         n0_l: n0_l {
-            bindings = <&num_fkey F0 NUMBER_0>;
+            bindings = <&num_fkey F10 NUMBER_0>;
             key-positions = <3 4>;
         };
 
@@ -341,7 +341,6 @@
             bindings = <&kp ASTERISK>;
             key-positions = <10 8>;
         };
-
     };
 
     macros {
