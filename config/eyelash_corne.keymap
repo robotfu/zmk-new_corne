@@ -327,16 +327,6 @@
             key-positions = <38 40>;
         };
 
-        r4 {
-            bindings = <&kp DOLLAR>;
-            key-positions = <23 25>;
-        };
-
-        r5 {
-            bindings = <&kp PERCENT>;
-            key-positions = <24 26>;
-        };
-
         r6 {
             bindings = <&kp CARET>;
             key-positions = <9 10>;
