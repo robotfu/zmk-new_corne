@@ -337,6 +337,46 @@
             bindings = <&kp SPACE>;
             key-positions = <31 32>;
         };
+
+        r1 {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <23 24>;
+        };
+
+        r2 {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <24 25>;
+        };
+
+        r3 {
+            bindings = <&kp HASH>;
+            key-positions = <25 26>;
+        };
+
+        r4 {
+            bindings = <&kp DOLLAR>;
+            key-positions = <23 25>;
+        };
+
+        r5 {
+            bindings = <&kp PERCENT>;
+            key-positions = <24 26>;
+        };
+
+        r6 {
+            bindings = <&kp CARET>;
+            key-positions = <8 9>;
+        };
+
+        r7 {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <9 10>;
+        };
+
+        r8 {
+            bindings = <&kp ASTERISK>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
