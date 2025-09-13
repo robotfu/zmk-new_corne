@@ -292,39 +292,39 @@
             key-positions = <15 31 17>;
         };
 
-        bootloader_combo: bootloader_combo {
-            bindings = <&bootloader>;
-            key-positions = <0 28>;
-        };
-
-        reset_combo: reset_combo {
-            bindings = <&sys_reset>;
-            key-positions = <13 28>;
-        };
-
         colon {
             bindings = <&kp COLON>;
-            key-positions = <37 38>;
+            key-positions = <23 24>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <38 39>;
+            key-positions = <25 24>;
         };
 
         r1 {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <23 24>;
+            key-positions = <37 38>;
         };
 
         r2 {
             bindings = <&kp AT_SIGN>;
-            key-positions = <24 25>;
+            key-positions = <38 39>;
         };
 
         r3 {
             bindings = <&kp HASH>;
-            key-positions = <25 26>;
+            key-positions = <39 40>;
+        };
+
+        r4 {
+            bindings = <&kp DOLLAR>;
+            key-positions = <37 39>;
+        };
+
+        r5 {
+            bindings = <&kp PERCENT>;
+            key-positions = <38 40>;
         };
 
         r4 {
@@ -351,7 +351,6 @@
             bindings = <&kp ASTERISK>;
             key-positions = <10 8>;
         };
-
     };
 
     macros {
@@ -364,7 +363,7 @@
             display-name = "home";
             bindings = <
 &kp GRAVE  &lt 7 Q  &hml F12 W   &hml F13 E       &hml F14 R    &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U    &hml F18 I       &hml F19 O   &hml F20 P  &kp EQUAL
-&kp COLON  &lt 8 A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L  &lt 8 SQT   &kp MINUS
+&kp COLON  &lt 8 A  &hml LALT S  &hml LCTRL D     &hml LSHFT F  &lt 10 G             &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L  &lt 8 SQT   &kp MINUS
 &leader_1  &lt 5 Z  &lt 4 X      &hml LEFT_WIN C  &lt 1 V       &kp B       &to 0               &kt LEFT_WIN                &kp N       &lt 6 M       &hmr LWIN COMMA  &kp DOT      &kp SLASH   &kp BACKSLASH
                                  &none            &none         &none                                                       &none       &none         &none
             >;
@@ -463,6 +462,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI                 &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,0,100)  &trans           &rgb_ug RGB_EFF  &trans
                         &trans  &trans  &trans                                    &trans           &trans           &trans
+            >;
+        };
+
+        sk {
+            bindings = <
+&trans  &trans  &trans        &trans     &trans     &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &sk LEFT_ALT  &sk LCTRL  &sk LSHFT  &none             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans     &trans     &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans     &trans     &trans                                    &trans  &trans  &trans
             >;
         };
     };
