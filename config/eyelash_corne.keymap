@@ -384,6 +384,11 @@
             bindings = <&kp END>;
             key-positions = <4 18>;
         };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <14 16>;
+        };
     };
 
     keymap {
@@ -393,7 +398,7 @@
             display-name = "home";
             bindings = <
 &kp GRAVE  &hml F11 Q  &hml F12 W   &hml F13 E       &hml F14 R    &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U    &hml F18 I       &hml F19 O   &hml F20 P  &kp EQUAL
-&tog 1     &kp A       &hml LALT S  &hml LCTRL D     &hml LSHFT F  &lt 10 G             &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L  &kp SQT     &kp MINUS
+&tog 1     &lt 10 A    &hml LALT S  &hml LCTRL D     &hml LSHFT F  &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L  &lt 10 SQT  &kp MINUS
 &tog 5     &kp Z       &kp X        &hml LEFT_WIN C  &kp V         &kp B       &to 0               &kt LEFT_WIN                &kp N       &kp M         &hmr LWIN COMMA  &kp DOT      &kp SLASH   &kp BACKSLASH
                                     &none            &none         &none                                                       &none       &none         &none
             >;
@@ -403,10 +408,10 @@
 
         mir {
             bindings = <
-&trans  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N  &kp M  &to 1   &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans                                    &trans  &trans  &trans
+&none  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp N  &kp M  &to 1   &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                     &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
 
             label = "mir";
@@ -447,10 +452,10 @@
 
         num {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                     &kp PAGE_UP             &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans           &kp HOME  &trans         &kp END  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
-&trans  &kp N0  &kp N1  &kp N2  &kp N3  &kp N0  &to 0              &kp PAGE_DOWN           &trans  &trans     &trans     &trans    &trans    &trans
-                        &trans  &trans  &trans                                             &trans  &trans     &trans
+&none  &trans  &kp N7  &kp N8  &kp N9  &trans                     &kp PAGE_UP             &trans  &trans     &trans     &trans    &trans    &trans
+&none  &kp N0  &kp N4  &kp N5  &kp N6  &trans           &kp HOME  &trans         &kp END  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
+&none  &kp N0  &kp N1  &kp N2  &kp N3  &kp N0  &to 0              &kp PAGE_DOWN           &trans  &trans     &trans     &trans    &trans    &trans
+                       &trans  &trans  &trans                                             &trans  &trans     &trans
             >;
 
             label = "num";
@@ -503,10 +508,10 @@
 
         sk {
             bindings = <
-&trans  &trans  &trans        &trans     &trans     &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &sk LEFT_ALT  &sk LCTRL  &sk LSHFT  &none             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans     &trans     &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans     &trans     &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans        &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans        &trans  &trans
+&trans  &trans  &sk LEFT_ALT  &sk LCTRL  &sk LSHFT  &none             &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LEFT_ALT  &trans  &trans
+&trans  &trans  &trans        &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans        &trans  &trans
+                              &trans     &trans     &trans                                    &trans  &trans     &trans
             >;
         };
     };
