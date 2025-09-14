@@ -831,6 +831,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-mir">
@@ -1307,6 +1325,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-nav">
@@ -1780,6 +1816,24 @@ rect.held, rect.combo.held {
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
 </g>
 </g>
 </g>
@@ -2259,6 +2313,24 @@ rect.held, rect.combo.held {
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
 </g>
 </g>
 </g>
@@ -2752,6 +2824,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1592)" class="layer-num">
@@ -3240,6 +3330,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1911)" class="layer-sym">
@@ -3716,6 +3824,24 @@ rect.held, rect.combo.held {
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
 </g>
 </g>
 </g>
@@ -4197,6 +4323,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2548)" class="layer-lnav">
@@ -4674,6 +4818,24 @@ rect.held, rect.combo.held {
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
 </g>
 </g>
 </g>
@@ -5171,6 +5333,24 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 3185)" class="layer-sk">
@@ -5645,6 +5825,24 @@ rect.held, rect.combo.held {
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="154" y="102" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="159" y="106" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="98" y="57" width="28" height="26" class="combo"/>
+<text x="112" y="70" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-44">
+<rect rx="6" ry="6" x="266" y="109" width="28" height="26" class="combo"/>
+<text x="280" y="122" class="combo tap">
+<tspan x="280" dy="-0.6em">PG</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-45">
+<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
+<text x="112" y="126" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-46">
+<rect rx="6" ry="6" x="266" y="53" width="28" height="26" class="combo"/>
+<text x="280" y="66" class="combo tap">END</text>
 </g>
 </g>
 </g>
