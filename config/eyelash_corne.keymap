@@ -138,17 +138,17 @@
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <32 31>;
+            key-positions = <17 16>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <30 31>;
+            key-positions = <15 16>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <30 29>;
+            key-positions = <14 15>;
         };
 
         enter: enter {
@@ -173,31 +173,31 @@
 
         n1_l {
             bindings = <&num_fkey F1 NUMBER_1>;
-            key-positions = <17 16>;
+            key-positions = <31 32>;
             layers = <0 1>;
         };
 
         n2_l {
             bindings = <&num_fkey F2 NUMBER_2>;
-            key-positions = <15 16>;
+            key-positions = <31 30>;
             layers = <0 1>;
         };
 
         n3_l {
             bindings = <&num_fkey F3 NUMBER_3>;
-            key-positions = <14 15>;
+            key-positions = <30 29>;
             layers = <0 1>;
         };
 
         n4_l {
             bindings = <&num_fkey F4 NUMBER_4>;
-            key-positions = <15 17>;
+            key-positions = <30 32>;
             layers = <0 1>;
         };
 
         n5_l {
             bindings = <&num_fkey F5 NUMBER_5>;
-            key-positions = <14 16>;
+            key-positions = <29 31>;
             layers = <0 1>;
         };
 
@@ -297,37 +297,37 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <37 38>;
+            key-positions = <23 24>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <38 39>;
+            key-positions = <25 24>;
         };
 
         r1 {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <23 24>;
+            key-positions = <37 38>;
         };
 
         r2 {
             bindings = <&kp AT_SIGN>;
-            key-positions = <24 25>;
+            key-positions = <38 39>;
         };
 
         r3 {
             bindings = <&kp HASH>;
-            key-positions = <25 26>;
+            key-positions = <39 40>;
         };
 
         r4 {
             bindings = <&kp DOLLAR>;
-            key-positions = <23 25>;
+            key-positions = <37 39>;
         };
 
         r5 {
             bindings = <&kp PERCENT>;
-            key-positions = <24 26>;
+            key-positions = <40 38>;
         };
 
         r6 {
