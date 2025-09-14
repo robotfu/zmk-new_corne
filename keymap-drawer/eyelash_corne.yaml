@@ -540,11 +540,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [16, 17]
+- p: [32, 31]
   k: $$mdi:keyboard-space$$
-- p: [16, 15]
+- p: [30, 31]
   k: $$mdi:keyboard-tab$$
-- p: [15, 14]
+- p: [30, 29]
   k: $$mdi:keyboard-esc$$
 - p: [17, 15, 16]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
