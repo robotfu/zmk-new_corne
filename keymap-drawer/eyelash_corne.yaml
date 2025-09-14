@@ -540,11 +540,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [32, 31]
+- p: [17, 16]
   k: $$mdi:keyboard-space$$
-- p: [30, 31]
+- p: [15, 16]
   k: $$mdi:keyboard-tab$$
-- p: [30, 29]
+- p: [14, 15]
   k: $$mdi:keyboard-esc$$
 - p: [17, 15, 16]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
@@ -554,19 +554,19 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [14, 17]
   k: '&key_repeat'
-- p: [17, 16]
+- p: [31, 32]
   k: {t: '1', h: F1}
   l: [home, mir]
-- p: [15, 16]
+- p: [31, 30]
   k: {t: '2', h: F2}
   l: [home, mir]
-- p: [14, 15]
+- p: [30, 29]
   k: {t: '3', h: F3}
   l: [home, mir]
-- p: [15, 17]
+- p: [30, 32]
   k: {t: '4', h: F4}
   l: [home, mir]
-- p: [14, 16]
+- p: [29, 31]
   k: {t: '5', h: F5}
   l: [home, mir]
 - p: [3, 2]
@@ -608,19 +608,19 @@ combos:
   k: {t: sym, h: toggle}
 - p: [15, 31, 17]
   k: {t: mouse, h: toggle}
-- p: [37, 38]
-  k: ':'
-- p: [38, 39]
-  k: {t: ;, s: ':'}
 - p: [23, 24]
+  k: ':'
+- p: [25, 24]
+  k: {t: ;, s: ':'}
+- p: [37, 38]
   k: '!'
-- p: [24, 25]
+- p: [38, 39]
   k: '@'
-- p: [25, 26]
+- p: [39, 40]
   k: '#'
-- p: [23, 25]
+- p: [37, 39]
   k: $
-- p: [24, 26]
+- p: [40, 38]
   k: '%'
 - p: [9, 10]
   k: ^
