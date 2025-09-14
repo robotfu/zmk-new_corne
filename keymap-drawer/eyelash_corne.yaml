@@ -618,3 +618,11 @@ combos:
   k: '&'
 - p: [10, 8]
   k: '*'
+- p: [3, 15]
+  k: $$mdi:arrow-up-bold$$
+- p: [3, 17]
+  k: $$mdi:arrow-right-bold$$
+- p: [17, 31]
+  k: $$mdi:arrow-down-bold$$
+- p: [15, 31]
+  k: $$mdi:arrow-left-bold$$
