@@ -43,13 +43,6 @@
             toggle-mode = "off";
         };
 
-        clear_all_toggles: clear_all_toggles {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            label = "CLEAR_ALL_TOGGLES";
-            bindings = <&kt_off LSHFT &kt_off RSHFT &kt_off LCTRL &kt_off RCTRL &kt_off LALT &kt_off RALT &kt_off LGUI &kt_off RGUI &to 0>;
-        };
-
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&kp>, <&kp>;
@@ -391,9 +384,6 @@
             bindings = <&kp END>;
             key-positions = <4 18>;
         };
-    };
-
-    macros {
     };
 
     keymap {
