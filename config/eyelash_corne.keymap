@@ -341,6 +341,26 @@
             bindings = <&kp ASTERISK>;
             key-positions = <10 8>;
         };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <3 15>;
+        };
+
+        rt {
+            bindings = <&kp RIGHT>;
+            key-positions = <3 17>;
+        };
+
+        dn {
+            bindings = <&kp DOWN>;
+            key-positions = <17 31>;
+        };
+
+        lt {
+            bindings = <&kp LEFT>;
+            key-positions = <15 31>;
+        };
     };
 
     macros {
