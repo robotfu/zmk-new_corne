@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   home:
-  - {t: '`', s: '~'}
+  - '&leader_1'
   - {t: Q, h: F11}
   - {t: W, h: F12}
   - {t: E, h: F13}
