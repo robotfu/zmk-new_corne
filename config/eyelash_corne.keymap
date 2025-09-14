@@ -173,31 +173,31 @@
 
         n1_l {
             bindings = <&num_fkey F1 NUMBER_1>;
-            key-positions = <31 32>;
+            key-positions = <17 16>;
             layers = <0 1>;
         };
 
         n2_l {
             bindings = <&num_fkey F2 NUMBER_2>;
-            key-positions = <31 30>;
+            key-positions = <15 16>;
             layers = <0 1>;
         };
 
         n3_l {
             bindings = <&num_fkey F3 NUMBER_3>;
-            key-positions = <29 30>;
+            key-positions = <14 15>;
             layers = <0 1>;
         };
 
         n4_l {
             bindings = <&num_fkey F4 NUMBER_4>;
-            key-positions = <30 32>;
+            key-positions = <15 17>;
             layers = <0 1>;
         };
 
         n5_l {
             bindings = <&num_fkey F5 NUMBER_5>;
-            key-positions = <29 31>;
+            key-positions = <14 16>;
             layers = <0 1>;
         };
 
@@ -297,37 +297,37 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <23 24>;
+            key-positions = <37 38>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <25 24>;
+            key-positions = <38 39>;
         };
 
         r1 {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <37 38>;
+            key-positions = <23 24>;
         };
 
         r2 {
             bindings = <&kp AT_SIGN>;
-            key-positions = <38 39>;
+            key-positions = <24 25>;
         };
 
         r3 {
             bindings = <&kp HASH>;
-            key-positions = <39 40>;
+            key-positions = <25 26>;
         };
 
         r4 {
             bindings = <&kp DOLLAR>;
-            key-positions = <37 39>;
+            key-positions = <23 25>;
         };
 
         r5 {
             bindings = <&kp PERCENT>;
-            key-positions = <38 40>;
+            key-positions = <24 26>;
         };
 
         r6 {
