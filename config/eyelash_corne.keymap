@@ -138,17 +138,17 @@
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <16 17>;
+            key-positions = <32 31>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <16 15>;
+            key-positions = <30 31>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <15 14>;
+            key-positions = <30 29>;
         };
 
         enter: enter {
