@@ -344,6 +344,8 @@
         r8 {
             bindings = <&kp ASTERISK>;
             key-positions = <10 8>;
+            timeout-ms = <15>;
+            layers = <0 1>;
         };
 
         up {
