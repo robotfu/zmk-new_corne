@@ -229,6 +229,7 @@
             bindings = <&num_fkey F10 NUMBER_0>;
             key-positions = <3 4>;
             layers = <0 1>;
+            timeout-ms = <15>;
         };
 
         f11 {
