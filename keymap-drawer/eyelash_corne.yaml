@@ -628,6 +628,7 @@ combos:
   k: '&'
 - p: [10, 8]
   k: '*'
+  l: [home, mir]
 - p: [3, 15]
   k: $$mdi:arrow-up-bold$$
 - p: [3, 17]
