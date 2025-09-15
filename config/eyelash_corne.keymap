@@ -389,6 +389,21 @@
             bindings = <&kp GRAVE>;
             key-positions = <14 16>;
         };
+
+        quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <25 26>;
+        };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <23 25>;
+        };
+
+        greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <24 26>;
+        };
     };
 
     keymap {
