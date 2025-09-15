@@ -405,6 +405,21 @@
             bindings = <&kp GREATER_THAN>;
             key-positions = <24 26>;
         };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <23 26>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <24 37>;
+        };
+
+        under {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <24 39>;
+        };
     };
 
     keymap {
