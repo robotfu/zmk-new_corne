@@ -390,7 +390,7 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <14 16>;
+            key-positions = <17 15>;
         };
 
         quote {
@@ -421,6 +421,11 @@
         under {
             bindings = <&kp UNDERSCORE>;
             key-positions = <24 39>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <14 16>;
         };
     };
 
