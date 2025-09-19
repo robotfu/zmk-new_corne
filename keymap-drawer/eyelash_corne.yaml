@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   home:
-  - '&leader_1'
+  - {t: mir, h: toggle}
   - {t: Q, h: F11}
   - {t: W, h: F12}
   - {t: E, h: F13}
@@ -14,7 +14,7 @@ layers:
   - {t: O, h: F19}
   - {t: P, h: F20}
   - {t: '=', s: +}
-  - {t: mir, h: toggle}
+  - F24
   - {t: A, h: F24}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
