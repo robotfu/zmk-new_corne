@@ -15,7 +15,7 @@ layers:
   - {t: P, h: F20}
   - {t: '=', s: +}
   - F24
-  - {t: A, h: F24}
+  - {t: A, h: F23}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
@@ -27,21 +27,21 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '''', h: F24, s: '"'}
+  - {t: '''', h: F23, s: '"'}
   - {t: '-', s: _}
   - {t: num, h: toggle}
-  - Z
-  - X
+  - {t: Z, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: X, h: 'Ctl+$$mdi:apple-keyboard-option$$'}
   - {t: C, h: LEFT WIN}
-  - V
+  - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - B
   - {t: home, h: toggle}
   - {t: LEFT WIN, h: toggle}
   - N
-  - M
+  - {t: M, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: ',', h: LWIN, s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ., h: 'Ctl+$$mdi:apple-keyboard-option$$', s: '>'}
+  - {t: /, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: '?'}
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
