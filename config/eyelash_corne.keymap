@@ -273,30 +273,6 @@
             key-positions = <9 26>;
         };
 
-        tog_lnav: tog_lnav {
-            bindings = <&tog 8>;
-            key-positions = <30 16 32>;
-        };
-
-        tog_num: tog_num {
-            bindings = <&tog 5>;
-            key-positions = <15 3 17>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <10>;
-        };
-
-        tog_sym: tog_sym {
-            bindings = <&tog 6>;
-            key-positions = <2 16 4>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <10>;
-        };
-
-        tog_fun: tog_fun {
-            bindings = <&tog 3>;
-            key-positions = <15 31 17>;
-        };
-
         colon {
             bindings = <&kp COLON>;
             key-positions = <23 24>;
@@ -447,10 +423,10 @@
 
         mir {
             bindings = <
-&trans  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N  &kp M  &to 1   &to 0   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp Y  &kp U  &kp I      &kp O       &kp P                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp H  &kp J  &kp K      &kp L       &kp SQT              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans     &trans      &trans                                       &trans  &trans  &trans
             >;
 
             label = "mir";
@@ -521,17 +497,6 @@
             >;
 
             label = "fun";
-        };
-
-        lnav {
-            bindings = <
-&trans  &trans  &kp HOME   &kp UP    &kp END    &trans                    &trans          &trans  &kp HOME   &kp UP    &kp END    &trans  &trans
-&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans            &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans            &trans          &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans
-                           &trans    &trans     &trans                                    &trans  &trans     &trans
-            >;
-
-            label = "lnav";
         };
 
         rgb {
