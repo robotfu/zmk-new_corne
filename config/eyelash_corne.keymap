@@ -250,6 +250,7 @@
         rp: rp {
             bindings = <&kp RPAR>;
             key-positions = <9 25>;
+            timeout-ms = <10>;
         };
 
         lb: lb {
