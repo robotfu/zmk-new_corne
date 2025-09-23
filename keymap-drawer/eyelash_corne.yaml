@@ -604,3 +604,9 @@ combos:
   k: _
 - p: [14, 16]
   k: '~'
+- p: [14, 17]
+  k: F24
+- p: [29, 32]
+  k: {t: num, h: toggle}
+- p: [1, 4]
+  k: {t: mir, h: toggle}

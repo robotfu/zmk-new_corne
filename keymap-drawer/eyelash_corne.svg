@@ -856,6 +856,28 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
 </g>
+<g class="combo combopos-51">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-52">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-53">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-mir">
@@ -1360,6 +1382,28 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
 </g>
+<g class="combo combopos-51">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-52">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-53">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-nav">
@@ -1798,6 +1842,28 @@ rect.held, rect.combo.held {
 <path d="M140,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
+</g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2242,6 +2308,28 @@ rect.held, rect.combo.held {
 <path d="M140,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
+</g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2701,6 +2789,28 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
 </g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1592)" class="layer-num">
@@ -3156,6 +3266,28 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
 </g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1911)" class="layer-sym">
@@ -3598,6 +3730,28 @@ rect.held, rect.combo.held {
 <path d="M140,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
+</g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -4043,6 +4197,28 @@ rect.held, rect.combo.held {
 <path d="M140,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
+</g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -4505,6 +4681,28 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
 </g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2866)" class="layer-sk">
@@ -4947,6 +5145,28 @@ rect.held, rect.combo.held {
 <path d="M140,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="126" y="81" width="28" height="26" class="combo"/>
 <text x="140" y="94" class="combo tap">~</text>
+</g>
+<g class="combo combopos-40">
+<path d="M168,98 l-65,5" class="combo"/>
+<path d="M168,98 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="85" width="28" height="26" class="combo"/>
+<text x="168" y="98" class="combo tap">F24</text>
+</g>
+<g class="combo combopos-41">
+<path d="M168,154 l-65,5" class="combo"/>
+<path d="M168,154 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="141" width="28" height="26" class="combo"/>
+<a href="#num">
+<text x="168" y="154" class="combo tap layer-activator">num</text>
+</a><text x="168" y="165" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-42">
+<path d="M168,42 l-65,5" class="combo"/>
+<path d="M168,42 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="29" width="28" height="26" class="combo"/>
+<a href="#mir">
+<text x="168" y="42" class="combo tap layer-activator">mir</text>
+</a><text x="168" y="53" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
