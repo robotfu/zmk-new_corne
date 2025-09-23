@@ -404,6 +404,21 @@
             bindings = <&kp TILDE>;
             key-positions = <14 16>;
         };
+
+        f24 {
+            bindings = <&kp F24>;
+            key-positions = <14 17>;
+        };
+
+        number {
+            bindings = <&tog 5>;
+            key-positions = <29 32>;
+        };
+
+        mir {
+            bindings = <&to 1>;
+            key-positions = <1 4>;
+        };
     };
 
     keymap {
