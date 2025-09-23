@@ -503,7 +503,7 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 30]
   k: $$mdi:backspace-reverse-outline$$
-- p: [14, 17]
+- p: [14, 15, 16]
   k: '&key_repeat'
 - p: [31, 32]
   k: {t: '1', h: F1}
@@ -572,13 +572,13 @@ combos:
 - p: [10, 8]
   k: '*'
   l: [home, mir]
-- p: [3, 15]
-  k: $$mdi:arrow-up-bold$$
 - p: [3, 17]
-  k: $$mdi:arrow-right-bold$$
+  k: $$mdi:arrow-up-bold$$
 - p: [17, 31]
+  k: $$mdi:arrow-right-bold$$
+- p: [31, 15]
   k: $$mdi:arrow-down-bold$$
-- p: [15, 31]
+- p: [15, 3]
   k: $$mdi:arrow-left-bold$$
 - p: [2, 14]
   k: PgUp
