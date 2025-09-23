@@ -580,13 +580,13 @@ combos:
   k: $$mdi:arrow-down-bold$$
 - p: [15, 3]
   k: $$mdi:arrow-left-bold$$
-- p: [2, 14]
-  k: PgUp
-- p: [18, 32]
-  k: PG DN
-- p: [14, 30]
-  k: HOME
 - p: [4, 18]
+  k: PgUp
+- p: [14, 30]
+  k: PG DN
+- p: [14, 2]
+  k: HOME
+- p: [18, 32]
   k: END
 - p: [17, 15]
   k: {t: '`', s: '~'}
