@@ -168,7 +168,7 @@
 
         key_repeat {
             bindings = <&key_repeat>;
-            key-positions = <14 17>;
+            key-positions = <14 15 16>;
         };
 
         n1_l {
@@ -327,22 +327,22 @@
 
         up {
             bindings = <&kp UP_ARROW>;
-            key-positions = <3 15>;
+            key-positions = <3 17>;
         };
 
         rt {
             bindings = <&kp RIGHT>;
-            key-positions = <3 17>;
+            key-positions = <17 31>;
         };
 
         dn {
             bindings = <&kp DOWN>;
-            key-positions = <17 31>;
+            key-positions = <31 15>;
         };
 
         lt {
             bindings = <&kp LEFT>;
-            key-positions = <15 31>;
+            key-positions = <15 3>;
         };
 
         pg_up {
