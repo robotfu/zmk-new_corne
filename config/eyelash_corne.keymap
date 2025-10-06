@@ -419,6 +419,11 @@
             bindings = <&to 1>;
             key-positions = <1 4>;
         };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <23 39>;
+        };
     };
 
     keymap {
