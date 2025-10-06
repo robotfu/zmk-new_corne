@@ -610,3 +610,5 @@ combos:
   k: {t: num, h: toggle}
 - p: [1, 4]
   k: {t: mir, h: toggle}
+- p: [23, 39]
+  k: {t: \, s: '|'}
