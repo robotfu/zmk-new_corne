@@ -396,7 +396,7 @@
         };
 
         under {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp MINUS>;
             key-positions = <24 39>;
         };
 
