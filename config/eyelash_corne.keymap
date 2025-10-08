@@ -395,7 +395,7 @@
             key-positions = <24 37>;
         };
 
-        under {
+        minor {
             bindings = <&kp MINUS>;
             key-positions = <24 39>;
         };
@@ -423,6 +423,16 @@
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <23 39>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <25 38>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <25 40>;
         };
     };
 
