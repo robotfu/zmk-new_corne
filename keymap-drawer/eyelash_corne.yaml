@@ -34,7 +34,7 @@ layers:
   - {t: X, h: 'Ctl+$$mdi:apple-keyboard-option$$'}
   - {t: C, h: LEFT WIN}
   - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-  - B
+  - {t: B, h: rgb}
   - {t: home, h: toggle}
   - {t: LEFT WIN, h: toggle}
   - N
@@ -426,7 +426,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -616,3 +616,5 @@ combos:
   k: {t: '=', s: +}
 - p: [25, 40]
   k: _
+- p: [1, 29]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
