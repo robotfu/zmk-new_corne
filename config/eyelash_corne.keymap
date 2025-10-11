@@ -439,6 +439,11 @@
             bindings = <&none>;
             key-positions = <1 29>;
         };
+
+        ins {
+            bindings = <&kp INSERT>;
+            key-positions = <15 29>;
+        };
     };
 
     keymap {
