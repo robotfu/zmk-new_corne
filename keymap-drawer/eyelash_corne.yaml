@@ -618,3 +618,5 @@ combos:
   k: _
 - p: [1, 29]
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [15, 29]
+  k: Ins
