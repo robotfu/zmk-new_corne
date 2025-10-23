@@ -15,7 +15,7 @@ layers:
   - {t: P, h: F20}
   - {t: '=', s: +}
   - F24
-  - {t: A, h: F23}
+  - {t: A, h: nav}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -572,22 +572,6 @@ combos:
 - p: [10, 8]
   k: '*'
   l: [home, mir]
-- p: [3, 17]
-  k: $$mdi:arrow-up-bold$$
-- p: [17, 31]
-  k: $$mdi:arrow-right-bold$$
-- p: [31, 15]
-  k: $$mdi:arrow-down-bold$$
-- p: [15, 3]
-  k: $$mdi:arrow-left-bold$$
-- p: [4, 18]
-  k: PgUp
-- p: [14, 30]
-  k: PG DN
-- p: [14, 2]
-  k: HOME
-- p: [18, 32]
-  k: END
 - p: [17, 15]
   k: {t: '`', s: '~'}
 - p: [25, 26]
