@@ -325,46 +325,6 @@
             layers = <0 1>;
         };
 
-        up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <3 17>;
-        };
-
-        rt {
-            bindings = <&kp RIGHT>;
-            key-positions = <17 31>;
-        };
-
-        dn {
-            bindings = <&kp DOWN>;
-            key-positions = <31 15>;
-        };
-
-        lt {
-            bindings = <&kp LEFT>;
-            key-positions = <15 3>;
-        };
-
-        pg_up {
-            bindings = <&kp PAGE_UP>;
-            key-positions = <4 18>;
-        };
-
-        pg_dn {
-            bindings = <&kp PG_DN>;
-            key-positions = <14 30>;
-        };
-
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <14 2>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <18 32>;
-        };
-
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <17 15>;
