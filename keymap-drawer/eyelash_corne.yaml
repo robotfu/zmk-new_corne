@@ -604,3 +604,5 @@ combos:
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
 - p: [15, 29]
   k: Ins
+- p: [17, 23]
+  k: $$mdi:apple-keyboard-caps$$
