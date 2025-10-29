@@ -30,7 +30,7 @@ layers:
   - {t: '''', h: F23, s: '"'}
   - {t: '-', s: _}
   - {t: num, h: toggle}
-  - {t: Z, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: Z, h: num}
   - {t: X, h: 'Ctl+$$mdi:apple-keyboard-option$$'}
   - {t: C, h: LEFT WIN}
   - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
@@ -275,7 +275,7 @@ layers:
   - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
+  - {t: '0', s: ), type: held}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
