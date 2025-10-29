@@ -145,270 +145,310 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
+            require-prior-idle-ms = <30>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15>;
+            require-prior-idle-ms = <30>;
         };
 
         enter: enter {
             bindings = <&kp ENTER>;
             key-positions = <17 15 16>;
+            require-prior-idle-ms = <30>;
         };
 
         bksp: bksp {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 32>;
+            require-prior-idle-ms = <30>;
         };
 
         del: del {
             bindings = <&kp DEL>;
             key-positions = <16 30>;
+            require-prior-idle-ms = <30>;
         };
 
         key_repeat {
             bindings = <&key_repeat>;
             key-positions = <14 15 16>;
+            require-prior-idle-ms = <30>;
         };
 
         n1_l {
             bindings = <&num_fkey F1 NUMBER_1>;
             key-positions = <31 32>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n2_l {
             bindings = <&num_fkey F2 NUMBER_2>;
             key-positions = <31 30>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n3_l {
             bindings = <&num_fkey F3 NUMBER_3>;
             key-positions = <30 29>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n4_l {
             bindings = <&num_fkey F4 NUMBER_4>;
             key-positions = <30 32>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n5_l {
             bindings = <&num_fkey F5 NUMBER_5>;
             key-positions = <29 31>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n6_l: n6_l {
             bindings = <&num_fkey F6 NUMBER_6>;
             key-positions = <3 2>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n7_l: n7_l {
             bindings = <&num_fkey F7 NUMBER_7>;
             key-positions = <2 1>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n8_l: n8_l {
             bindings = <&num_fkey F8 NUMBER_8>;
             key-positions = <2 4>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n9_l: n9_l {
             bindings = <&num_fkey F9 NUMBER_9>;
             key-positions = <1 3>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         n0_l: n0_l {
             bindings = <&num_fkey F10 NUMBER_0>;
             key-positions = <3 4>;
-            layers = <0 1>;
             timeout-ms = <15>;
+            require-prior-idle-ms = <30>;
         };
 
         f11 {
             bindings = <&kp F11>;
             key-positions = <4 3 2>;
+            require-prior-idle-ms = <30>;
         };
 
         f12 {
             bindings = <&kp F12>;
             key-positions = <2 1 3>;
+            require-prior-idle-ms = <30>;
         };
 
         lp: lp {
             bindings = <&kp LPAR>;
             key-positions = <23 9>;
+            require-prior-idle-ms = <30>;
         };
 
         rp: rp {
             bindings = <&kp RPAR>;
             key-positions = <9 25>;
             timeout-ms = <10>;
+            require-prior-idle-ms = <30>;
         };
 
         lb: lb {
             bindings = <&kp LBKT>;
             key-positions = <10 24>;
+            require-prior-idle-ms = <30>;
         };
 
         rb: rb {
             bindings = <&kp RBKT>;
             key-positions = <10 26>;
+            require-prior-idle-ms = <30>;
         };
 
         lbb: lbb {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <23 10>;
+            require-prior-idle-ms = <30>;
         };
 
         rbb: rbb {
             bindings = <&kp RBRC>;
             key-positions = <9 26>;
+            require-prior-idle-ms = <30>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <23 24>;
+            require-prior-idle-ms = <30>;
         };
 
         semi {
             bindings = <&kp SEMI>;
             key-positions = <25 24>;
+            require-prior-idle-ms = <30>;
         };
 
         r1 {
             bindings = <&kp EXCLAMATION>;
             key-positions = <37 38>;
+            require-prior-idle-ms = <30>;
         };
 
         r2 {
             bindings = <&kp AT_SIGN>;
             key-positions = <38 39>;
+            require-prior-idle-ms = <30>;
         };
 
         r3 {
             bindings = <&kp HASH>;
             key-positions = <39 40>;
+            require-prior-idle-ms = <30>;
         };
 
         r4 {
             bindings = <&kp DOLLAR>;
             key-positions = <37 39>;
+            require-prior-idle-ms = <30>;
         };
 
         r5 {
             bindings = <&kp PERCENT>;
             key-positions = <40 38>;
+            require-prior-idle-ms = <30>;
         };
 
         r6 {
             bindings = <&kp CARET>;
             key-positions = <9 10>;
+            require-prior-idle-ms = <30>;
         };
 
         r7 {
             bindings = <&kp AMPERSAND>;
             key-positions = <10 11>;
+            require-prior-idle-ms = <30>;
         };
 
         r8 {
             bindings = <&kp ASTERISK>;
             key-positions = <10 8>;
             timeout-ms = <15>;
-            layers = <0 1>;
+            require-prior-idle-ms = <30>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <17 15>;
+            require-prior-idle-ms = <30>;
         };
 
         quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <25 26>;
+            require-prior-idle-ms = <30>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <23 25>;
+            require-prior-idle-ms = <30>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <24 26>;
+            require-prior-idle-ms = <30>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <23 26>;
+            require-prior-idle-ms = <30>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <24 37>;
+            require-prior-idle-ms = <30>;
         };
 
         minor {
             bindings = <&kp MINUS>;
             key-positions = <24 39>;
+            require-prior-idle-ms = <30>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <14 16>;
+            require-prior-idle-ms = <30>;
         };
 
         f24 {
             bindings = <&kp F24>;
             key-positions = <14 17>;
+            require-prior-idle-ms = <30>;
         };
 
         number {
             bindings = <&tog 5>;
             key-positions = <29 32>;
+            require-prior-idle-ms = <30>;
         };
 
         mir {
             bindings = <&tog 1>;
             key-positions = <1 4>;
+            require-prior-idle-ms = <30>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <23 39>;
+            require-prior-idle-ms = <30>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <25 38>;
+            require-prior-idle-ms = <30>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <25 40>;
+            require-prior-idle-ms = <30>;
         };
 
         reset {
             bindings = <&none>;
             key-positions = <1 29>;
+            require-prior-idle-ms = <30>;
         };
 
         ins {
             bindings = <&kp INSERT>;
             key-positions = <15 29>;
+            require-prior-idle-ms = <30>;
         };
 
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <17 23>;
+            require-prior-idle-ms = <30>;
         };
     };
 
