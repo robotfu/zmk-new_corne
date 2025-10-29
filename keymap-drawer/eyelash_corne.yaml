@@ -574,7 +574,7 @@ combos:
 - p: [24, 37]
   k: +
 - p: [24, 39]
-  k: {t: '-', s: _}
+  k: {t: '=', s: +}
 - p: [14, 16]
   k: '~'
 - p: [14, 17]
@@ -586,11 +586,11 @@ combos:
 - p: [23, 39]
   k: {t: \, s: '|'}
 - p: [25, 38]
-  k: {t: '=', s: +}
+  k: {t: '-', s: _}
 - p: [25, 40]
   k: _
 - p: [1, 29]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
 - p: [15, 29]
   k: Ins
 - p: [17, 23]
