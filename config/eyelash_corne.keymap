@@ -90,22 +90,22 @@
                 bindings = <&to 0>;
             };
 
-            C {
+            sk_C {
                 sequence = <C>;
                 bindings = <&sk LCTRL>;
             };
 
-            M {
+            sk_M {
                 sequence = <M>;
                 bindings = <&sk LALT>;
             };
 
-            G {
+            sk_G {
                 sequence = <G>;
                 bindings = <&kt LWIN>;
             };
 
-            S {
+            sk_S {
                 sequence = <S>;
                 bindings = <&kt LSHIFT>;
             };
