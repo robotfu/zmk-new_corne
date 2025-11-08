@@ -434,7 +434,7 @@
         };
 
         reset {
-            bindings = <&sys_reset>;
+            bindings = <&bootloader>;
             key-positions = <1 29>;
             require-prior-idle-ms = <30>;
         };
