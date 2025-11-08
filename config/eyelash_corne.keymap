@@ -481,7 +481,7 @@
             require-prior-idle-ms = <30>;
         };
 
-        dw-im {
+        dwim {
             bindings = <&dwim>;
             key-positions = <16 2>;
         };
