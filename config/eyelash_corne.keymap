@@ -416,7 +416,7 @@
         };
 
         minor {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp MINUS>;
             key-positions = <24 39>;
             require-prior-idle-ms = <30>;
         };
@@ -452,7 +452,7 @@
         };
 
         equal {
-            bindings = <&kp MINUS>;
+            bindings = <&kp EQUAL>;
             key-positions = <25 38>;
             require-prior-idle-ms = <30>;
         };
