@@ -450,6 +450,11 @@
             key-positions = <17 23>;
             require-prior-idle-ms = <30>;
         };
+
+        dw-im {
+            bindings = <&none>;
+            key-positions = <16 2>;
+        };
     };
 
     keymap {
