@@ -458,10 +458,10 @@
         home {
             display-name = "home";
             bindings = <
-&tog 1   &hml F11 Q  &hml F12 W           &hml F13 E       &hml F14 R        &hml F15 T                      &kt LSHIFT                  &hml F16 Y  &hml F17 U        &hml F18 I       &hml F19 O             &hml F20 P                   &kp EQUAL
-&kp F24  &lt 2 A     &hml LALT S          &hml LCTRL D     &hml LSHFT F      &kp G                &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H       &hmr LSHFT J      &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &kp MINUS
-&tog 5   &lt 5 Z     &hml LC(LEFT_ALT) X  &hml LEFT_WIN C  &hml LC(LSHFT) V  &lt 8 B     &to 0               &kt LEFT_WIN                &kp N       &hmr LC(LSHFT) M  &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &kp BACKSLASH
-                                          &none            &none             &none                                                       &none       &none             &none
+&none  &hml F1 Q  &hml F12 W           &hml F3 E        &hml F4 R         &hml F5 T                      &kt LSHIFT                  &hml F6 Y  &hml F7 U         &hml F8 I        &hml F9 O              &hml F10 P                   &none
+&none  &lt 2 A    &hml LALT S          &hml LCTRL D     &hml LSHFT F      &lt 4 G             &kt LCTRL  &tog 0        &kt LEFT_ALT  &kp H      &hmr LSHFT J      &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &none
+&none  &lt 5 Z    &hml LC(LEFT_ALT) X  &hml LEFT_WIN C  &hml LC(LSHFT) V  &lt 8 B    &to 0               &kt LEFT_WIN                &kp N      &hmr LC(LSHFT) M  &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
+                                       &none            &none             &none                                                      &none      &none             &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
