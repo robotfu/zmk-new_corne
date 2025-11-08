@@ -590,7 +590,7 @@ combos:
 - p: [25, 40]
   k: _
 - p: [1, 29]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  k: $$mdi:progress-download$$
 - p: [15, 29]
   k: Ins
 - p: [17, 23]
