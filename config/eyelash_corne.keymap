@@ -71,34 +71,65 @@
             hold-trigger-key-positions = <47 46 45 44 43 42 33 0 1 2 3 4 5 13 14 15 16 17 18 28 29 30 31 32 33 42 43 44>;
         };
 
-        leader_1: leader_1 {
+        dwim: dwim {
             compatible = "zmk,behavior-leader-key";
             #binding-cells = <0>;
 
-            ctl-prs {
-                sequence = <E R>;
-                bindings = <&kp LC(PRINTSCREEN)>;
+            f_key {
+                sequence = <F>;
+                bindings = <&to 7>;
             };
 
-            win {
-                sequence = <A>;
+            number {
+                sequence = <N>;
+                bindings = <&to 5>;
+            };
+
+            quit {
+                sequence = <Q>;
+                bindings = <&to 0>;
+            };
+
+            C {
+                sequence = <C>;
+                bindings = <&sk LCTRL>;
+            };
+
+            M {
+                sequence = <M>;
+                bindings = <&sk LALT>;
+            };
+
+            G {
+                sequence = <G>;
                 bindings = <&kt LWIN>;
             };
 
-            alt {
+            S {
                 sequence = <S>;
-                bindings = <&kt LALT>;
+                bindings = <&kt LSHIFT>;
             };
 
-            ctl {
-                sequence = <D>;
+            kt_c {
+                sequence = <T C>;
                 bindings = <&kt LCTRL>;
             };
 
-            sft {
-                sequence = <F>;
-                bindings = <&kt LSHFT>;
+            kt_m {
+                sequence = <M>;
+                bindings = <&kt LALT>;
             };
+
+            kt_g {
+                sequence = <G>;
+                bindings = <&kt LWIN>;
+            };
+
+            kt_s {
+                sequence = <S>;
+                bindings = <&kt LSHIFT>;
+            };
+
         };
 
         alt_shift_dance: alt_shift_dance {
