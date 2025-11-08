@@ -116,17 +116,17 @@
             };
 
             kt_m {
-                sequence = <M>;
+                sequence = <T M>;
                 bindings = <&kt LALT>;
             };
 
             kt_g {
-                sequence = <G>;
+                sequence = <T G>;
                 bindings = <&kt LWIN>;
             };
 
             kt_s {
-                sequence = <S>;
+                sequence = <T S>;
                 bindings = <&kt LSHIFT>;
             };
         };
