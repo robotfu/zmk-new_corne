@@ -129,7 +129,6 @@
                 sequence = <S>;
                 bindings = <&kt LSHIFT>;
             };
-
         };
 
         alt_shift_dance: alt_shift_dance {
@@ -483,7 +482,7 @@
         };
 
         dw-im {
-            bindings = <&none>;
+            bindings = <&dwim>;
             key-positions = <16 2>;
         };
     };
