@@ -1,25 +1,25 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   home:
-  - {t: mir, h: toggle}
-  - {t: Q, h: F11}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Q, h: F1}
   - {t: W, h: F12}
-  - {t: E, h: F13}
-  - {t: R, h: F14}
-  - {t: T, h: F15}
+  - {t: E, h: F3}
+  - {t: R, h: F4}
+  - {t: T, h: F5}
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-  - {t: Y, h: F16}
-  - {t: U, h: F17}
-  - {t: I, h: F18}
-  - {t: O, h: F19}
-  - {t: P, h: F20}
-  - {t: '=', s: +}
-  - F24
+  - {t: Y, h: F6}
+  - {t: U, h: F7}
+  - {t: I, h: F8}
+  - {t: O, h: F9}
+  - {t: P, h: F10}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: A, h: nav}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
+  - {t: G, h: media}
   - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
   - {t: home, h: toggle}
   - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
@@ -28,8 +28,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', h: F23, s: '"'}
-  - {t: '-', s: _}
-  - {t: num, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Z, h: num}
   - {t: X, h: 'Ctl+$$mdi:apple-keyboard-option$$'}
   - {t: C, h: LEFT WIN}
@@ -42,7 +42,7 @@ layers:
   - {t: ',', h: LWIN, s: <}
   - {t: ., h: 'Ctl+$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: '?'}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -215,7 +215,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
