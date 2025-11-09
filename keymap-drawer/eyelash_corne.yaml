@@ -264,7 +264,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - END
