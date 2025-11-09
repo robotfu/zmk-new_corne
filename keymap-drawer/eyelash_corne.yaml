@@ -32,14 +32,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Z, h: num}
   - {t: X, h: 'Ctl+$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: LEFT WIN}
-  - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: C, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: V, h: LEFT WIN}
   - {t: B, h: rgb}
   - {t: home, h: toggle}
   - {t: LEFT WIN, h: toggle}
   - N
-  - {t: M, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-  - {t: ',', h: LWIN, s: <}
+  - {t: M, h: LEFT WIN}
+  - {t: ',', h: 'Ctl+$$mdi:apple-keyboard-shift$$', s: <}
   - {t: ., h: 'Ctl+$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
