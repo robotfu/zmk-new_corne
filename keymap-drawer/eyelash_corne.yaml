@@ -7,7 +7,7 @@ layers:
   - {t: E, h: F3}
   - {t: R, h: F4}
   - {t: T, h: F5}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: Y, h: F6}
   - {t: U, h: F7}
   - {t: I, h: F8}
@@ -20,9 +20,9 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, h: media}
-  - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
-  - {t: home, h: toggle}
-  - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
@@ -36,7 +36,7 @@ layers:
   - {t: V, h: LEFT WIN}
   - {t: B, h: rgb}
   - {t: home, h: toggle}
-  - {t: LEFT WIN, h: toggle}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
   - {t: M, h: LEFT WIN}
   - {t: ',', h: 'Ctl+$$mdi:apple-keyboard-shift$$', s: <}
