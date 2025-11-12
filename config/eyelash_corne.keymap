@@ -475,8 +475,8 @@
             require-prior-idle-ms = <30>;
         };
 
-        caps {
-            bindings = <&kp CAPSLOCK>;
+        kt_sft {
+            bindings = <&kt LSHFT>;
             key-positions = <17 23>;
             require-prior-idle-ms = <30>;
         };
@@ -484,6 +484,21 @@
         dwim {
             bindings = <&dwim>;
             key-positions = <16 2>;
+        };
+
+        kt_ctl {
+            bindings = <&kt LCTRL>;
+            key-positions = <16 24>;
+        };
+
+        kt_alt {
+            bindings = <&kt LEFT_ALT>;
+            key-positions = <15 25>;
+        };
+
+        kt_lwin {
+            bindings = <&kt LWIN>;
+            key-positions = <32 37>;
         };
     };
 
