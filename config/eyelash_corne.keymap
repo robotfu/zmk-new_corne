@@ -91,42 +91,42 @@
             };
 
             sk_C {
-                sequence = <C>;
+                sequence = <D>;
                 bindings = <&sk LCTRL>;
             };
 
             sk_M {
-                sequence = <M>;
+                sequence = <S>;
                 bindings = <&sk LALT>;
             };
 
             sk_G {
-                sequence = <G>;
+                sequence = <V>;
                 bindings = <&kt LWIN>;
             };
 
             sk_S {
-                sequence = <S>;
+                sequence = <F>;
                 bindings = <&kt LSHIFT>;
             };
 
             kt_c {
-                sequence = <T C>;
+                sequence = <T D>;
                 bindings = <&kt LCTRL>;
             };
 
             kt_m {
-                sequence = <T M>;
+                sequence = <T S>;
                 bindings = <&kt LALT>;
             };
 
             kt_g {
-                sequence = <T G>;
+                sequence = <T V>;
                 bindings = <&kt LWIN>;
             };
 
             kt_s {
-                sequence = <T S>;
+                sequence = <T F>;
                 bindings = <&kt LSHIFT>;
             };
         };
