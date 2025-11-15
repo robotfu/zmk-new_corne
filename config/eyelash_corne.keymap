@@ -587,19 +587,10 @@
 
         rolling {
             bindings = <
-&trans  &trans     &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EQUAL  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LT)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp MINUS  &none   &kp LBKT      &kp RBKT      &kp LS(GT)  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans        &trans        &trans                                        &trans  &trans  &trans
-            >;
-        };
-
-        layer_11 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans     &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans                               &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EQUAL  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LESS_THAN)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS  &none   &kp LBKT      &kp RBKT      &kp GT             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans        &trans        &trans                                               &trans  &trans  &trans
             >;
         };
     };
