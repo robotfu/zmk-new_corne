@@ -622,7 +622,7 @@ combos:
   k: {t: num, h: toggle}
 - p: [1, 4]
   k: {t: mir, h: toggle}
-- p: [23, 39]
+- p: [9, 25]
   k: {t: \, s: '|'}
 - p: [25, 38]
   k: {t: '=', s: +}
