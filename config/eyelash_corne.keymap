@@ -281,13 +281,6 @@
             require-prior-idle-ms = <30>;
         };
 
-        rp: rp {
-            bindings = <&kp RPAR>;
-            key-positions = <9 25>;
-            timeout-ms = <10>;
-            require-prior-idle-ms = <30>;
-        };
-
         colon {
             bindings = <&kp COLON>;
             key-positions = <23 24>;
