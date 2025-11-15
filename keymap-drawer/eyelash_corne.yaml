@@ -640,5 +640,5 @@ combos:
   k: {t: '$$mdi:apple-keyboard-control$$', h: toggle}
 - p: [15, 25]
   k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
-- p: [32, 37]
+- p: [31, 38]
   k: {t: LWIN, h: toggle}
