@@ -417,7 +417,7 @@
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <23 39>;
+            key-positions = <9 25>;
             require-prior-idle-ms = <30>;
         };
 
