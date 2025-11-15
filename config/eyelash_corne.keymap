@@ -508,10 +508,10 @@
         home {
             display-name = "home";
             bindings = <
-&none  &hml F1 Q  &hml F12 W           &hml F3 E         &hml F4 R        &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U        &hml F8 I             &hml F9 O              &hml F10 P                   &none
-&none  &lt 2 A    &hml LALT S          &hml LCTRL D      &hml LSHFT F     &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J     &hmr LCTRL K          &hmr LALT L            &hmr F23 SQT                 &none
-&none  &lt 5 Z    &hml LC(LEFT_ALT) X  &hml LC(LSHFT) C  &hml LEFT_WIN V  &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &hmr LEFT_WIN M  &hmr LC(LSHFT) COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
-                                       &none             &none            &none                                                         &none      &none            &none
+&none  &hml F1 Q  &hml F12 W           &hml F3 E     &hml F4 R        &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U        &hml F8 I        &hml F9 O              &hml F10 P                   &none
+&none  &lt 2 A    &hml LALT S          &hml LCTRL D  &hml LSHFT F     &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J     &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &none
+&none  &lt 5 Z    &hml LC(LEFT_ALT) X  &hml LWIN C   &hml LEFT_WIN V  &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &hmr LEFT_WIN M  &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
+                                       &none         &none            &none                                                         &none      &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -612,6 +612,15 @@
 &trans  &trans  &sk LEFT_ALT  &sk LCTRL  &sk LSHFT  &none             &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LEFT_ALT  &trans  &trans
 &trans  &trans  &trans        &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans        &trans  &trans
                               &trans     &trans     &trans                                    &trans  &trans     &trans
+            >;
+        };
+
+        rolling {
+            bindings = <
+&trans  &trans     &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EQUAL  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LT)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS  &none   &kp LBKT      &kp RBKT      &kp LS(GT)  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans        &trans        &trans                                        &trans  &trans  &trans
             >;
         };
     };
