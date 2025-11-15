@@ -468,7 +468,7 @@
 
         kt_lwin {
             bindings = <&kt LWIN>;
-            key-positions = <32 37>;
+            key-positions = <31 38>;
         };
     };
 
