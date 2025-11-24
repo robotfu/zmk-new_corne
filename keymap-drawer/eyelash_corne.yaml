@@ -33,7 +33,7 @@ layers:
   - {t: Z, h: num}
   - {t: X, h: rolling}
   - {t: C, h: LWIN}
-  - {t: V, h: F24}
+  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
   - {t: B, h: rgb}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
