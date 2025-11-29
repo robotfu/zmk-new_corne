@@ -14,7 +14,7 @@ layers:
   - {t: O, h: F9}
   - {t: P, h: F10}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-option$$', h: toggle}
+  - F23
   - {t: A, h: nav}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
