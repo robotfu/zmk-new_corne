@@ -471,10 +471,10 @@
         home {
             display-name = "home";
             bindings = <
-&none          &hml F1 Q  &hml F12 W   &hml F3 E     &hml F4 R     &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U     &hml F8 I        &hml F9 O              &hml F10 P                   &none
-&kt RIGHT_ALT  &lt 2 A    &hml LALT S  &hml LCTRL D  &hml LSHFT F  &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &none
-&none          &lt 5 Z    &lt 10 X     &hml LWIN C   &hml RALT V   &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &hmr RALT M   &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
-                                       &none         &none         &none                                                         &none      &none         &none
+&none    &hml F1 Q  &hml F12 W   &hml F3 E     &hml F4 R     &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U     &hml F8 I        &hml F9 O              &hml F10 P                   &none
+&kp F23  &lt 2 A    &hml LALT S  &hml LCTRL D  &hml LSHFT F  &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &none
+&none    &lt 5 Z    &lt 10 X     &hml LWIN C   &hml RALT V   &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &hmr RALT M   &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
+                                 &none         &none         &none                                                         &none      &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
