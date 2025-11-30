@@ -448,21 +448,6 @@
             bindings = <&dwim>;
             key-positions = <16 2>;
         };
-
-        kt_ctl {
-            bindings = <&kt LCTRL>;
-            key-positions = <16 24>;
-        };
-
-        kt_alt {
-            bindings = <&kt LEFT_ALT>;
-            key-positions = <15 25>;
-        };
-
-        kt_lwin {
-            bindings = <&kt LWIN>;
-            key-positions = <31 38>;
-        };
     };
 
     keymap {
