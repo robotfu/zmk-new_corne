@@ -634,9 +634,3 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
 - p: [16, 2]
   k: '&dwim'
-- p: [16, 24]
-  k: {t: '$$mdi:apple-keyboard-control$$', h: toggle}
-- p: [15, 25]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
-- p: [31, 38]
-  k: {t: LWIN, h: toggle}
