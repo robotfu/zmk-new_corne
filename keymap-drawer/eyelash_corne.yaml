@@ -33,12 +33,12 @@ layers:
   - {t: Z, h: num}
   - {t: X, h: rolling}
   - {t: C, h: LWIN}
-  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: V, h: lwin}
   - {t: B, h: rgb}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
-  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: M, h: lwin}
   - {t: ',', h: LWIN, s: <}
   - {t: ., h: 'Ctl+$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: '?'}
@@ -531,6 +531,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  lwin:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+7, s: Gui+&}
+  - {t: Gui+8, s: Gui+*}
+  - {t: Gui+9, s: Gui+(}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Alt+7, s: Gui+Alt+&}
+  - {t: Gui+Alt+8, s: Gui+Alt+*}
+  - {t: Gui+Alt+9, s: Gui+Alt+(}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+4, s: Gui+$}
+  - {t: Gui+5, s: Gui+%}
+  - {t: Gui+6, s: Gui+^}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Alt+4
+  - {t: Gui+Alt+5, s: Gui+Alt+%}
+  - Gui+Alt+6
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+1, s: Gui+!}
+  - {t: Gui+2, s: Gui+@}
+  - {t: Gui+3, s: Gui+#, type: held}
+  - {t: Gui+0, s: Gui+)}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Alt+0, s: Gui+Alt+)}
+  - {t: Gui+Alt+1, s: Gui+Alt+!, type: held alternate}
+  - Gui+Alt+2
+  - Gui+Alt+3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
