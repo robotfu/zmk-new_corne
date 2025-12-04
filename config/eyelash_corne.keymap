@@ -456,10 +456,10 @@
         home {
             display-name = "home";
             bindings = <
-&none    &hml F1 Q  &hml F12 W   &hml F3 E     &hml F4 R     &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U     &hml F8 I        &hml F9 O              &hml F10 P                   &none
-&kp F23  &lt 2 A    &hml LALT S  &hml LCTRL D  &hml LSHFT F  &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &tog 11
-&none    &lt 5 Z    &lt 10 X     &hml LWIN C   &lt 11 V      &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &lt 11 M      &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
-                                 &none         &none         &none                                                         &none      &none         &none
+&none      &hml F1 Q  &hml F12 W   &hml F3 E     &hml F4 R     &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U     &hml F8 I        &hml F9 O              &hml F10 P                   &none
+&lt 2 F23  &lt 2 A    &hml LALT S  &hml LCTRL D  &hml LSHFT F  &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &tog 11
+&none      &lt 5 Z    &lt 10 X     &hml LWIN C   &lt 11 V      &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &lt 11 M      &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
+                                   &none         &none         &none                                                         &none      &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -478,10 +478,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp HOME  &kp UP     &kp END    &kp PG_UP                   &trans          &trans  &trans     &trans     &trans        &trans    &trans
-&trans  &none   &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN           &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LGUI  &trans
-&trans  &trans  &kp INS   &kp LCTRL  &trans     &trans     &to 0            &trans          &trans  &trans     &trans     &trans        &trans    &trans
-                          &trans     &trans     &trans                                      &trans  &trans     &trans
+&trans    &trans  &kp HOME  &kp UP     &kp END    &kp PG_UP                   &trans          &trans  &trans        &kp LS(UP)    &trans         &trans  &trans
+&kp LWIN  &none   &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN           &trans  &trans  &trans  &trans  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &none   &kp LWIN
+&trans    &trans  &kp INS   &kp LCTRL  &trans     &trans     &to 0            &trans          &trans  &trans        &trans        &trans         &trans  &trans
+                            &trans     &trans     &trans                                      &trans  &trans        &trans
             >;
 
             label = "nav";
@@ -578,6 +578,15 @@
 &trans  &trans  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans                &trans  &trans  &trans  &trans          &kp LG(LA(NUMBER_4))  &kp LG(LA(N5))        &kp LG(LA(NUMBER_6))  &trans  &trans
 &trans  &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N0)  &trans            &trans          &kp LG(LA(N0))  &kp LG(LA(N1))        &kp LG(LA(NUMBER_2))  &kp LG(LA(NUMBER_3))  &trans  &trans
                             &trans      &trans      &trans                                        &trans          &trans                &trans
+            >;
+        };
+
+        lwin-d {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
