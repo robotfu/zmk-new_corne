@@ -106,10 +106,10 @@ layers:
   - END
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+PG UP
+  - Sft+HOME
   - Sft+$$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: LWIN, type: held}
@@ -121,7 +121,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG DN
+  - Sft+PG DN
   - Sft+$$mdi:arrow-left-bold$$
   - Sft+$$mdi:arrow-down-bold$$
   - Sft+$$mdi:arrow-right-bold$$
