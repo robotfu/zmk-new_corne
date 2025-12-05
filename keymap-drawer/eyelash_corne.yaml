@@ -14,7 +14,7 @@ layers:
   - {t: O, h: F9}
   - {t: P, h: F10}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&left_outer_key'
+  - {t: F23, h: nav}
   - {t: A, h: nav}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -112,8 +112,8 @@ layers:
   - Sft+PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LWIN
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: LWIN, type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
