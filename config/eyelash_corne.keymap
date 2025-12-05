@@ -149,14 +149,14 @@ lm: lm {
         ;
 };
 
-left_outer_key: left_outer_key {
-    compatible = "zmk,behavior-hold-tap";
-    label = "left_outer_key";
-    #binding-cells = <2>;
-    flavor = "tap-preferred";
-    global-quick-tap;
-    bindings = <&kp F23>, <&lm 2 LGUI>;
-};
+        left_outer_key: left_outer_key {
+            compatible = "zmk,behavior-hold-tap";
+            label = "left_outer_key";
+            #binding-cells = <0>;
+            flavor = "tap-preferred";
+            global-quick-tap;
+            bindings = <&kp F23 &lm 2 LGUI>;
+        };
 
         num_fkey: num_fkey {
             compatible = "zmk,behavior-hold-tap";
