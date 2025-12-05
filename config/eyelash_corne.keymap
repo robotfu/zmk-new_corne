@@ -38,7 +38,7 @@
     macros {
         // Layer 2 + LGUI 宏
 
-        lm_2_lgui: lm_2_lgui {
+        lm_pinky_lgui: lm_2_lgui {
             compatible = "zmk,behavior-macro";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -68,13 +68,13 @@
     };
 
     behaviors {
-        lm_ht: lm_ht {
+        lm_pinky_lgui_ht: lm_pinky_lgui_ht {
             compatible = "zmk,behavior-hold-tap";
-            label = "LM_HOLD_TAP";
+            label = "LM_PINKY_LGUI_HT";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
-            bindings = <&lm_2_lgui>, <&kp>;
+            bindings = <&lm_pinky_lgui>, <&kp>;
         };
 
         kt_off: key_toggle_off_only {
@@ -431,7 +431,7 @@
         };
 
         number {
-            bindings = <&tog 5>;
+            bindings = <&tog 3>;
             key-positions = <29 32>;
             require-prior-idle-ms = <30>;
         };
@@ -490,10 +490,10 @@
         home {
             display-name = "home";
             bindings = <
-&none         &hml F1 Q  &hml F12 W   &hml F3 E     &hml F4 R     &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U     &hml F8 I        &hml F9 O              &hml F10 P                   &none
-&lm_ht 0 F23  &lt 2 A    &hml LALT S  &hml LCTRL D  &hml LSHFT F  &lt 4 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &tog 0
-&none         &lt 5 Z    &lt 10 X     &hml LWIN C   &lm_ht 0 V    &lt 8 B    &to 0                  &bt BT_SEL 2                &kp N      &lt 0 M       &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
-                                      &none         &none         &none                                                         &none      &none         &none
+&none  &lm_pinky_lgui_ht 0 Q  &hml F12 W   &hml F3 E     &hml F4 R              &hml F5 T                         &bt BT_SEL 0                &hml F6 Y  &hml F7 U     &hml F8 I        &hml F9 O              &hml F10 P                   &none
+&none  &lt 2 A                &hml LALT S  &hml LCTRL D  &hml LSHFT F           &lt 6 G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J  &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &none
+&none  &lt 3 Z                &lt 4 X      &hml LWIN C   &lm_pinky_lgui_ht 0 V  &lt 7 B    &to 0                  &bt BT_SEL 2                &kp N      &lt 0 M       &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
+                                           &none         &none                  &none                                                         &none      &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -510,7 +510,7 @@
             label = "mir";
         };
 
-        nav {
+        pinky_mid_nav {
             bindings = <
 &trans    &trans  &kp HOME  &kp UP     &kp END    &kp PG_UP                   &trans          &kp LS(PG_UP)  &kp LS(HOME)  &kp LS(UP)    &kp LS(PAGE_DOWN)  &trans  &trans
 &kp LWIN  &none   &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_DN           &trans  &trans  &trans  &kp LS(PG_DN)  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)      &none   &kp LWIN
@@ -518,18 +518,39 @@
                             &trans     &trans     &trans                                      &trans         &trans        &trans
             >;
 
-            label = "nav";
+            label = "pm_nav";
         };
 
-        mou {
+        pinky_btm_num {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans                   &trans          &kp LC(Y)  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp LC(Z)        &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans           &trans  &trans  &trans  &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &trans
-&trans  &trans    &trans    &trans     &trans     &trans  &to 0            &trans          &trans     &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &msc SCRL_RIGHT  &trans
-                            &trans     &trans     &trans                                   &mkp RCLK  &mkp LCLK       &mkp MCLK
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                   &trans          &trans        &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans           &trans  &trans  &trans  &trans        &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans  &trans
+&trans  &none   &kp N1  &kp N2  &kp N3  &kp N0  &to 0            &trans          &kp LS(RPAR)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none   &trans
+                        &trans  &trans  &trans                                   &trans        &trans        &trans
             >;
 
-            label = "mouse";
+            label = "pb_num";
+            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
+        };
+
+        ring_btm_rolling {
+            bindings = <
+&trans  &trans     &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans                               &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EQUAL  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LESS_THAN)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS  &none   &kp LBKT      &kp RBKT      &kp GT             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans        &trans        &trans                                               &trans  &trans  &trans
+            >;
+
+            label = "rb_roll";
+        };
+
+        index_num {
+            bindings = <
+&trans  &kp N7  &kp N8  &kp N9  &trans  &trans                    &trans          &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
+&trans  &kp N4  &kp N5  &kp N6  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans            &trans          &trans  &trans  &kp N1  &kp N2  &kp N3  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
 
         med {
@@ -543,40 +564,6 @@
             label = "media";
         };
 
-        num {
-            bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                   &trans          &trans        &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans           &trans  &trans  &trans  &trans        &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans  &trans
-&trans  &none   &kp N1  &kp N2  &kp N3  &kp N0  &to 0            &trans          &kp LS(RPAR)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none   &trans
-                        &trans  &trans  &trans                                   &trans        &trans        &trans
-            >;
-
-            label = "num";
-            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
-        };
-
-        sym {
-            bindings = <
-&trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE                   &trans          &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS                  &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
-&trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE         &to 0            &trans          &trans  &trans     &trans     &trans    &trans    &trans
-                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE                                    &trans  &trans     &trans
-            >;
-
-            label = "sym";
-        };
-
-        fun {
-            bindings = <
-&trans  &kp F12  &kp F7  &kp F8      &kp F9   &kp PSCRN                         &trans          &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5      &kp F6   &kp SCROLLLOCK            &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &trans
-&trans  &kp F10  &kp F1  &kp F2      &kp F3   &kp PAUSE_BREAK  &to 0            &trans          &trans  &trans     &trans     &trans    &trans    &trans
-                         &kp C_MENU  &kp F12  &kp TAB                                           &trans  &trans     &trans
-            >;
-
-            label = "fun";
-        };
-
         rgb {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD                 &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &trans
@@ -586,33 +573,6 @@
             >;
 
             label = "rgb";
-        };
-
-        sk {
-            bindings = <
-&trans  &trans  &trans        &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans        &trans  &trans
-&trans  &trans  &sk LEFT_ALT  &sk LCTRL  &sk LSHFT  &none             &trans  &trans  &trans  &trans  &sk LSHFT  &sk LCTRL  &sk LEFT_ALT  &trans  &trans
-&trans  &trans  &trans        &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans        &trans  &trans
-                              &trans     &trans     &trans                                    &trans  &trans     &trans
-            >;
-        };
-
-        rolling {
-            bindings = <
-&trans  &trans     &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans                               &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EQUAL  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LESS_THAN)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp MINUS  &none   &kp LBKT      &kp RBKT      &kp GT             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans        &trans        &trans                                               &trans  &trans  &trans
-            >;
-        };
-
-        index_num {
-            bindings = <
-&trans  &kp N7  &kp N8  &kp N9  &trans  &trans                    &trans          &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
-&trans  &kp N4  &kp N5  &kp N6  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
-&trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans            &trans          &trans  &trans  &kp N1  &kp N2  &kp N3  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
         };
     };
 
