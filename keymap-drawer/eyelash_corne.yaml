@@ -38,7 +38,7 @@ layers:
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
-  - {t: M, h: home}
+  - {t: M, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: ',', h: LWIN, s: <}
   - {t: ., h: 'Ctl+$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: '?'}
