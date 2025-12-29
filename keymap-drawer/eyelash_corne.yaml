@@ -19,7 +19,7 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: '&lm_index_nav_lgui'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
@@ -34,7 +34,7 @@ layers:
   - {t: X, h: rb_roll}
   - {t: C, h: LWIN}
   - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-  - {t: B, h: '&lm_index_nav_lctl_lgui'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
@@ -531,9 +531,3 @@ combos:
   k: _
 - p: [1, 29]
   k: $$mdi:progress-download$$
-- p: [15, 29]
-  k: Ins
-- p: [17, 23]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
-- p: [16, 2]
-  k: '&dwim'
