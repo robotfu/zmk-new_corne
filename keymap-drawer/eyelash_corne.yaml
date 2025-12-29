@@ -450,6 +450,7 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [17, 15, 16]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [home]
 - p: [16, 32]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 30]
