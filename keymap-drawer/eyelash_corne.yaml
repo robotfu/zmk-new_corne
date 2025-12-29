@@ -4,13 +4,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Q, h: '&lm_pinky_nav_lgui'}
   - {t: W, h: F12}
-  - {t: E, h: F3}
-  - {t: R, h: F4}
+  - {t: E, h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
   - {t: T, h: F5}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: Y, h: F6}
-  - {t: U, h: F7}
-  - {t: I, h: F8}
+  - {t: U, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - {t: O, h: F9}
   - {t: P, h: F10}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -33,7 +33,7 @@ layers:
   - {t: Z, h: pb_num}
   - {t: X, h: rb_roll}
   - {t: C, h: LWIN}
-  - {t: V, h: '&lm_index_num_lgui'}
+  - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: B, h: '&lm_index_nav_lctl_lgui'}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -448,7 +448,7 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [14, 15]
   k: $$mdi:keyboard-esc$$
-- p: [17, 15, 16]
+- p: [16, 15, 32]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [home]
 - p: [16, 32]
