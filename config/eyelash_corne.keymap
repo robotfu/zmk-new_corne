@@ -279,6 +279,7 @@
             bindings = <&kp ENTER>;
             key-positions = <17 15 16>;
             require-prior-idle-ms = <30>;
+            layers = <0>;
         };
 
         bksp: bksp {
