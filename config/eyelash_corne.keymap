@@ -277,7 +277,7 @@
 
         enter: enter {
             bindings = <&kp ENTER>;
-            key-positions = <17 15 16>;
+            key-positions = <16 15 32>;
             require-prior-idle-ms = <30>;
             layers = <0>;
         };
@@ -548,10 +548,10 @@
         home {
             display-name = "home";
             bindings = <
-&none  &lm_ht_pinky_lgui 0 Q  &hml F12 W   &hml F3 E     &hml F4 R                  &hml F5 T                                              &bt BT_SEL 0                &hml F6 Y  &hml F7 U              &hml F8 I        &hml F9 O              &hml F10 P                   &none
-&none  &lt 2 A                &hml LALT S  &hml LCTRL D  &hml LSHFT F               &lm_ht_index_nav_lgui 0 G                &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J           &hmr LCTRL K     &hmr LALT L            &hmr F23 SQT                 &none
-&none  &lt 3 Z                &lt 4 X      &hml LWIN C   &lm_ht_index_num_lgui 0 V  &lm_ht_index_nav_lctl_lgui 0 B  &to 0                  &bt BT_SEL 2                &kp N      &hmr LC(LEFT_SHIFT) M  &hmr LWIN COMMA  &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
-                                           &none         &none                      &none                                                                              &none      &none                  &none
+&none  &lm_ht_pinky_lgui 0 Q  &hml F12 W   &hml LA(LCTRL) E  &hml LA(LSHIFT) R  &hml F5 T                                              &bt BT_SEL 0                &hml F6 Y  &hml LA(LSHFT) U       &hml LA(LCTRL) I  &hml F9 O              &hml F10 P                   &none
+&none  &lt 2 A                &hml LALT S  &hml LCTRL D      &hml LSHFT F       &lm_ht_index_nav_lgui 0 G                &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H      &hmr LSHFT J           &hmr LCTRL K      &hmr LALT L            &hmr F23 SQT                 &none
+&none  &lt 3 Z                &lt 4 X      &hml LWIN C       &hml LC(LSHFT) V   &lm_ht_index_nav_lctl_lgui 0 B  &to 0                  &bt BT_SEL 2                &kp N      &hmr LC(LEFT_SHIFT) M  &hmr LWIN COMMA   &hmr LC(LEFT_ALT) DOT  &hmr LC(LS(LEFT_ALT)) SLASH  &none
+                                           &none             &none              &none                                                                              &none      &none                  &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
